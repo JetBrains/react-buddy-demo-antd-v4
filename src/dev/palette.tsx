@@ -9,7 +9,10 @@ import Button from 'antd/es/button';
 import Sider from "antd/es/layout/Sider";
 import Col from 'antd/es/grid/col';
 import Layout, {Content, Footer, Header} from "antd/es/layout/layout";
-import {Affix, Breadcrumb, Divider, Dropdown, Menu, Row, Space} from 'antd';
+import {Affix, Breadcrumb, Cascader, Divider, Dropdown, Input, Menu, Rate, Row, Space} from 'antd';
+import {AutoComplete, Card, DatePicker, InputNumber, Radio, Select, Table} from "antd/es";
+import Checkbox from "antd/es/checkbox/Checkbox";
+import {Group} from "antd/es/radio";
 
 export default () => (
   <Palette>
@@ -140,45 +143,6 @@ export default () => (
       </Component>
     </Category>
     <Category name="Layout">
-      <Component name="App Layout">
-        <Variant>
-          <Layout>
-            <Header>Header</Header>
-            <Content>Content</Content>
-            <Footer>Footer</Footer>
-          </Layout>
-        </Variant>
-        <Variant name="left sider">
-          <Layout>
-            <Header>Header</Header>
-            <Layout>
-              <Sider>Sider</Sider>
-              <Content>Content</Content>
-            </Layout>
-            <Footer>Footer</Footer>
-          </Layout>
-        </Variant>
-        <Variant name="right sider">
-          <Layout>
-            <Header>Header</Header>
-            <Layout>
-              <Content>Content</Content>
-              <Sider>Sider</Sider>
-            </Layout>
-            <Footer>Footer</Footer>
-          </Layout>
-        </Variant>
-        <Variant name="left full sider">
-          <Layout>
-            <Sider>Sider</Sider>
-            <Layout>
-              <Header>Header</Header>
-              <Content>Content</Content>
-              <Footer>Footer</Footer>
-            </Layout>
-          </Layout>
-        </Variant>
-      </Component>
       <Component name="Grid">
         <Variant name="two cols">
           <Row>
@@ -222,6 +186,154 @@ export default () => (
         </Variant>
         <Variant name="vertical">
           <Space direction="vertical"></Space>
+        </Variant>
+      </Component>
+      <Component name="App Layout">
+        <Variant>
+          <Layout>
+            <Header>Header</Header>
+            <Content>Content</Content>
+            <Footer>Footer</Footer>
+          </Layout>
+        </Variant>
+        <Variant name="left sider">
+          <Layout>
+            <Header>Header</Header>
+            <Layout>
+              <Sider>Sider</Sider>
+              <Content>Content</Content>
+            </Layout>
+            <Footer>Footer</Footer>
+          </Layout>
+        </Variant>
+        <Variant name="right sider">
+          <Layout>
+            <Header>Header</Header>
+            <Layout>
+              <Content>Content</Content>
+              <Sider>Sider</Sider>
+            </Layout>
+            <Footer>Footer</Footer>
+          </Layout>
+        </Variant>
+        <Variant name="left full sider">
+          <Layout>
+            <Sider>Sider</Sider>
+            <Layout>
+              <Header>Header</Header>
+              <Content>Content</Content>
+              <Footer>Footer</Footer>
+            </Layout>
+          </Layout>
+        </Variant>
+      </Component>
+    </Category>
+    <Category name="Data Entry">
+      <Component name="AutoComplete">
+        <Variant>
+          <AutoComplete/>
+        </Variant>
+      </Component>
+      <Component name="Cascader">
+        <Variant>
+          <Cascader/>
+        </Variant>
+      </Component>
+      <Component name="Checkbox">
+        <Variant>
+          <Checkbox>Checkbox</Checkbox>
+        </Variant>
+      </Component>
+      <Component name="DatePicker">
+        <Variant>
+          <DatePicker/>
+        </Variant>
+        <Variant name="show time">
+          <DatePicker showTime={true}/>
+        </Variant>
+        <Variant name="week">
+          <DatePicker picker="week" />
+        </Variant>
+        <Variant name="month">
+          <DatePicker picker="month" />
+        </Variant>
+        <Variant name="quarter">
+          <DatePicker picker="quarter" />
+        </Variant>
+        <Variant name="year">
+          <DatePicker picker="year" />
+        </Variant>
+        {/*
+        <Variant name="range">
+          <DatePicker.RangePicker/>
+        </Variant>
+        */}
+      </Component>
+      <Component name="Input">
+        <Variant>
+          <Input/>
+        </Variant>
+        <Variant name="large">
+          <Input size="large"/>
+        </Variant>
+        <Variant name="small">
+          <Input size="small"/>
+        </Variant>
+        <Variant name="with prefix">
+          <Input addonBefore="http://" defaultValue="mysite" />
+        </Variant>
+        <Variant name="with postfix">
+          <Input addonAfter=".com" defaultValue="mysite" />
+        </Variant>
+      </Component>
+      <Component name="InputNumber">
+        <Variant>
+          <InputNumber min={0} max={10} defaultValue={5} />
+        </Variant>
+      </Component>
+      <Component name="Radio">
+        <Variant>
+          <Group>
+            <Radio value={1}>A</Radio>
+            <Radio value={2}>B</Radio>
+            <Radio value={3}>C</Radio>
+            <Radio value={4}>D</Radio>
+          </Group>
+        </Variant>
+      </Component>
+      <Component name="Rate">
+        <Variant>
+          <Rate/>
+        </Variant>
+      </Component>
+      {/*
+      <Component name="Select">
+        <Variant>
+          <Select defaultValue="lucy">
+            <Select.Option value="jack">Jack</Select.Option>
+            <Select.Option value="lucy">Lucy</Select.Option>
+            <Select.Option value="disabled" disabled>
+              Disabled
+            </Select.Option>
+          </Select>
+        </Variant>
+      </Component>
+      */}
+    </Category>
+    <Category name="Data Display">
+      <Component name="Card">
+        <Variant>
+          <Card title="Card title" style={{ width: 300 }}>
+            <p>Card content</p>
+            <p>Card content</p>
+            <p>Card content</p>
+          </Card>
+        </Variant>
+      </Component>
+      <Component name="Table">
+        <Variant>
+          <Table dataSource={[{name: 'John', age: 30}, {name: 'Lucy', age: 31}]}
+                 columns={[{title: 'Name', dataIndex:'name'}, {title: 'Age', dataIndex: 'age'}]} />;
         </Variant>
       </Component>
     </Category>
