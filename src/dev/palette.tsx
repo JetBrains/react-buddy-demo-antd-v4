@@ -5,6 +5,10 @@ import Title from "antd/es/typography/Title";
 import Text from 'antd/es/typography/Text';
 import Link from 'antd/es/typography/Link';
 import Button from 'antd/es/button';
+import {Divider, Row, Space} from 'antd';
+import Layout, {Content, Footer, Header} from "antd/es/layout/layout";
+import Sider from "antd/es/layout/Sider";
+import Col from 'antd/es/grid/col';
 
 export default () => (
   <Palette>
@@ -131,6 +135,92 @@ export default () => (
       <Component name="Link">
         <Variant>
           <Link href="https://ant.design" target="_blank">Ant Design (Link)</Link>
+        </Variant>
+      </Component>
+    </Category>
+    <Category name="Layout">
+      <Component name="App Layout">
+        <Variant>
+          <Layout>
+            <Header>Header</Header>
+            <Content>Content</Content>
+            <Footer>Footer</Footer>
+          </Layout>
+        </Variant>
+        <Variant name="left sider">
+          <Layout>
+            <Header>Header</Header>
+            <Layout>
+              <Sider>Sider</Sider>
+              <Content>Content</Content>
+            </Layout>
+            <Footer>Footer</Footer>
+          </Layout>
+        </Variant>
+        <Variant name="right sider">
+          <Layout>
+            <Header>Header</Header>
+            <Layout>
+              <Content>Content</Content>
+              <Sider>Sider</Sider>
+            </Layout>
+            <Footer>Footer</Footer>
+          </Layout>
+        </Variant>
+        <Variant name="left full sider">
+          <Layout>
+            <Sider>Sider</Sider>
+            <Layout>
+              <Header>Header</Header>
+              <Content>Content</Content>
+              <Footer>Footer</Footer>
+            </Layout>
+          </Layout>
+        </Variant>
+      </Component>
+      <Component name="Grid">
+        <Variant name="two cols">
+          <Row>
+            <Col span={12}>col-12</Col>
+            <Col span={12}>col-12</Col>
+          </Row>
+        </Variant>
+        <Variant name="three cols">
+          <Row>
+            <Col span={8}>col-8</Col>
+            <Col span={8}>col-8</Col>
+            <Col span={8}>col-8</Col>
+          </Row>
+        </Variant>
+        <Variant name="four cols">
+          <Row>
+            <Col span={6}>col-6</Col>
+            <Col span={6}>col-6</Col>
+            <Col span={6}>col-6</Col>
+            <Col span={6}>col-6</Col>
+          </Row>
+        </Variant>
+      </Component>
+      <Component name="Divider">
+        <Variant>
+          <Divider />
+        </Variant>
+        <Variant name="dashed">
+          <Divider dashed />
+        </Variant>
+        <Variant name="with title">
+          <Divider>Title</Divider>
+        </Variant>
+        <Variant name="vertical">
+          <Divider type="vertical"/>
+        </Variant>
+      </Component>
+      <Component name="Space">
+        <Variant>
+          <Space></Space>
+        </Variant>
+        <Variant name="vertical">
+          <Space direction="vertical"></Space>
         </Variant>
       </Component>
     </Category>
