@@ -5,10 +5,11 @@ import Title from "antd/es/typography/Title";
 import Text from 'antd/es/typography/Text';
 import Link from 'antd/es/typography/Link';
 import Button from 'antd/es/button';
-import {Divider, Row, Space} from 'antd';
-import Layout, {Content, Footer, Header} from "antd/es/layout/layout";
+
 import Sider from "antd/es/layout/Sider";
 import Col from 'antd/es/grid/col';
+import Layout, {Content, Footer, Header} from "antd/es/layout/layout";
+import {Affix, Breadcrumb, Divider, Dropdown, Menu, Row, Space} from 'antd';
 
 export default () => (
   <Palette>
@@ -223,6 +224,39 @@ export default () => (
           <Space direction="vertical"></Space>
         </Variant>
       </Component>
+    </Category>
+    <Category name="Navigation">
+      <Component name="Affix">
+        <Variant>
+          <Affix offsetTop={10}>Affix top</Affix>
+        </Variant>
+        <Variant name="bottom">
+          <Affix offsetBottom={10}>Affix top</Affix>
+        </Variant>
+      </Component>
+      {/*
+      <Component name="Breadcrumb">
+        <Variant>
+          <Breadcrumb>
+            <Breadcrumb.Item>Home</Breadcrumb.Item>
+            <Breadcrumb.Item>
+              <a href="">Application Center</a>
+            </Breadcrumb.Item>
+            <Breadcrumb.Item>
+              <a href="">Application List</a>
+            </Breadcrumb.Item>
+            <Breadcrumb.Item>An Application</Breadcrumb.Item>
+          </Breadcrumb>
+        </Variant>
+      </Component>
+      <Component name="Dropdown">
+        <Variant>
+          <Dropdown.Button overlay={<div>place Menu here</div>} placement="bottomCenter">
+            Dropdown
+          </Dropdown.Button>
+        </Variant>
+      </Component>
+      */}
     </Category>
   </Palette>
 );
