@@ -1,6 +1,6 @@
 import React from 'react';
 import {Category, Component, Palette, Variant,} from '@react-buddy/ide-toolbox';
-import {AppstoreOutlined, MailOutlined, SearchOutlined, SettingOutlined} from "@ant-design/icons";
+import {AppstoreOutlined, MailOutlined, SearchOutlined, SettingOutlined, UploadOutlined} from "@ant-design/icons";
 import Title from "antd/es/typography/Title";
 import Text from 'antd/es/typography/Text';
 import Link from 'antd/es/typography/Link';
@@ -9,12 +9,16 @@ import Button from 'antd/es/button';
 import Sider from "antd/es/layout/Sider";
 import Col from 'antd/es/grid/col';
 import Layout, {Content, Footer, Header} from "antd/es/layout/layout";
-import {Affix, AutoComplete,
-  Breadcrumb, Card, Cascader, DatePicker, Divider, Dropdown, Input, InputNumber, Menu,
-  PageHeader, Pagination, Rate, Row, Select, Space, Steps, Table} from "antd/es";
+import {
+  Affix, AutoComplete,
+  Breadcrumb, Card, Cascader, DatePicker, Divider, Dropdown, Form, Input, InputNumber, Menu,
+  PageHeader, Pagination, Rate, Row, Select, Slider, Space, Steps, Switch, Table, TimePicker,
+  Transfer, TreeSelect, Upload
+} from "antd/es";
 import Checkbox from "antd/es/checkbox/Checkbox";
 import Radio, {Group} from "antd/es/radio";
 import SubMenu from 'antd/es/menu/SubMenu';
+import {TreeNode} from "antd/es/tree-select";
 
 export default () => (
   <Palette>
@@ -36,7 +40,7 @@ export default () => (
           <Button type="link">Link Button</Button>
         </Variant>
         <Variant name="icon - circle">
-          <Button type="primary" shape="circle" icon={<SearchOutlined />} />
+          <Button type="primary" shape="circle" icon={<SearchOutlined/>}/>
         </Variant>
         <Variant name="ghost">
           <Button ghost>Ghost Default</Button>
@@ -114,10 +118,10 @@ export default () => (
           <Text type="danger">Ant Design (danger)</Text>
         </Variant>
         <Variant name="disabled">
-        <Text disabled>Ant Design (disabled)</Text>
+          <Text disabled>Ant Design (disabled)</Text>
         </Variant>
         <Variant name="mark">
-        <Text mark>Ant Design (mark)</Text>
+          <Text mark>Ant Design (mark)</Text>
         </Variant>
         <Variant name="code">
           <Text code>Ant Design (code)</Text>
@@ -170,10 +174,10 @@ export default () => (
       </Component>
       <Component name="Divider">
         <Variant>
-          <Divider />
+          <Divider/>
         </Variant>
         <Variant name="dashed">
-          <Divider dashed />
+          <Divider dashed/>
         </Variant>
         <Variant name="with title">
           <Divider>Title</Divider>
@@ -231,6 +235,43 @@ export default () => (
       </Component>
     </Category>
     <Category name="Data Entry">
+      <Component name="Form">
+        <Variant>
+          <Form
+            name="basic"
+            labelCol={{span: 8}}
+            wrapperCol={{span: 16}}
+            initialValues={{remember: true}}
+            autoComplete="off"
+          >
+            <Form.Item
+              label="Username"
+              name="username"
+              rules={[{required: true, message: 'Please input your username!'}]}
+            >
+              <Input/>
+            </Form.Item>
+
+            <Form.Item
+              label="Password"
+              name="password"
+              rules={[{required: true, message: 'Please input your password!'}]}
+            >
+              <Input.Password/>
+            </Form.Item>
+
+            <Form.Item name="remember" valuePropName="checked" wrapperCol={{offset: 8, span: 16}}>
+              <Checkbox>Remember me</Checkbox>
+            </Form.Item>
+
+            <Form.Item wrapperCol={{offset: 8, span: 16}}>
+              <Button type="primary" htmlType="submit">
+                Submit
+              </Button>
+            </Form.Item>
+          </Form>
+        </Variant>
+      </Component>
       <Component name="AutoComplete">
         <Variant>
           <AutoComplete/>
@@ -254,16 +295,16 @@ export default () => (
           <DatePicker showTime={true}/>
         </Variant>
         <Variant name="week">
-          <DatePicker picker="week" />
+          <DatePicker picker="week"/>
         </Variant>
         <Variant name="month">
-          <DatePicker picker="month" />
+          <DatePicker picker="month"/>
         </Variant>
         <Variant name="quarter">
-          <DatePicker picker="quarter" />
+          <DatePicker picker="quarter"/>
         </Variant>
         <Variant name="year">
-          <DatePicker picker="year" />
+          <DatePicker picker="year"/>
         </Variant>
         {/*
         <Variant name="range">
@@ -282,15 +323,15 @@ export default () => (
           <Input size="small"/>
         </Variant>
         <Variant name="with prefix">
-          <Input addonBefore="http://" defaultValue="mysite" />
+          <Input addonBefore="http://" defaultValue="mysite"/>
         </Variant>
         <Variant name="with postfix">
-          <Input addonAfter=".com" defaultValue="mysite" />
+          <Input addonAfter=".com" defaultValue="mysite"/>
         </Variant>
       </Component>
       <Component name="InputNumber">
         <Variant>
-          <InputNumber min={0} max={10} defaultValue={5} />
+          <InputNumber min={0} max={10} defaultValue={5}/>
         </Variant>
       </Component>
       <Component name="Radio">
@@ -308,10 +349,18 @@ export default () => (
           <Rate/>
         </Variant>
       </Component>
-      {/*
       <Component name="Select">
         <Variant>
-          <Select defaultValue="lucy">
+          <Select defaultValue="lucy" style={{width: '100%'}}>
+            <Select.Option value="jack">Jack</Select.Option>
+            <Select.Option value="lucy">Lucy</Select.Option>
+            <Select.Option value="disabled" disabled>
+              Disabled
+            </Select.Option>
+          </Select>
+        </Variant>
+        <Variant name="multiple">
+          <Select defaultValue="lucy" style={{width: '100%'}} mode={"multiple"}>
             <Select.Option value="jack">Jack</Select.Option>
             <Select.Option value="lucy">Lucy</Select.Option>
             <Select.Option value="disabled" disabled>
@@ -320,12 +369,76 @@ export default () => (
           </Select>
         </Variant>
       </Component>
-      */}
+      <Component name="Slider">
+        <Variant>
+          <Slider defaultValue={30}/>
+        </Variant>
+      </Component>
+      <Component name="Switch">
+        <Variant>
+          <Switch defaultChecked/>
+        </Variant>
+      </Component>
+      <Component name="TimePicker">
+        <Variant>
+          <TimePicker format="HH:mm"/>,
+        </Variant>
+        <Variant name="range">
+          <TimePicker.RangePicker/>
+        </Variant>
+      </Component>
+      <Component name="Transfer">
+        <Variant>
+          <Transfer
+            dataSource={[
+              {key: '0', title: 'Apple'},
+              {key: '1', title: 'Banana'}
+            ]}
+            titles={['Source', 'Target']}
+            render={item => item.title}
+            oneWay={false}
+            style={{marginBottom: 16}}
+          />
+        </Variant>
+      </Component>
+      <Component name="TreeSelect">
+        <Variant>
+          <TreeSelect
+            showSearch
+            style={{width: '100%'}}
+            dropdownStyle={{maxHeight: 400, overflow: 'auto'}}
+            placeholder="Please select"
+            allowClear
+            treeDefaultExpandAll
+          >
+            <TreeNode value="parent 1" title="parent 1">
+              <TreeNode value="parent 1-0" title="parent 1-0">
+                <TreeNode value="leaf1" title="leaf1"/>
+                <TreeNode value="leaf2" title="leaf2"/>
+              </TreeNode>
+              <TreeNode value="parent 1-1" title="parent 1-1">
+                <TreeNode value="leaf3" title={<b style={{color: '#08c'}}>leaf3</b>}/>
+              </TreeNode>
+            </TreeNode>
+          </TreeSelect>
+        </Variant>
+      </Component>
+      <Component name="Upload">
+        <Variant>
+          <Upload name={'file'}
+                  action={'uploadActionUrl'}
+                  headers={{
+                    authorization: 'authorization header',
+                  }}>
+            <Button icon={<UploadOutlined/>}>Click to Upload</Button>
+          </Upload>
+        </Variant>
+      </Component>
     </Category>
     <Category name="Data Display">
       <Component name="Card">
         <Variant>
-          <Card title="Card title" style={{ width: 300 }}>
+          <Card title="Card title" style={{width: 300}}>
             <p>Card content</p>
             <p>Card content</p>
             <p>Card content</p>
@@ -335,7 +448,7 @@ export default () => (
       <Component name="Table">
         <Variant>
           <Table dataSource={[{name: 'John', age: 30}, {name: 'Lucy', age: 31}]}
-                 columns={[{title: 'Name', dataIndex:'name'}, {title: 'Age', dataIndex: 'age'}]} />;
+                 columns={[{title: 'Name', dataIndex: 'name'}, {title: 'Age', dataIndex: 'age'}]}/>;
         </Variant>
       </Component>
     </Category>
@@ -372,12 +485,12 @@ export default () => (
       <Component name="Menu">
         <Variant name="vertical">
           <Menu
-            style={{ width: 256 }}
+            style={{width: 256}}
             defaultSelectedKeys={['1']}
             defaultOpenKeys={['sub1']}
             mode="inline"
           >
-            <SubMenu key="sub1" icon={<MailOutlined />} title="Navigation One">
+            <SubMenu key="sub1" icon={<MailOutlined/>} title="Navigation One">
               <Menu.ItemGroup key="g1" title="Item 1">
                 <Menu.Item key="1">Option 1</Menu.Item>
                 <Menu.Item key="2">Option 2</Menu.Item>
@@ -387,7 +500,7 @@ export default () => (
                 <Menu.Item key="4">Option 4</Menu.Item>
               </Menu.ItemGroup>
             </SubMenu>
-            <SubMenu key="sub2" icon={<AppstoreOutlined />} title="Navigation Two">
+            <SubMenu key="sub2" icon={<AppstoreOutlined/>} title="Navigation Two">
               <Menu.Item key="5">Option 5</Menu.Item>
               <Menu.Item key="6">Option 6</Menu.Item>
               <SubMenu key="sub3" title="Submenu">
@@ -395,7 +508,7 @@ export default () => (
                 <Menu.Item key="8">Option 8</Menu.Item>
               </SubMenu>
             </SubMenu>
-            <SubMenu key="sub4" icon={<SettingOutlined />} title="Navigation Three">
+            <SubMenu key="sub4" icon={<SettingOutlined/>} title="Navigation Three">
               <Menu.Item key="9">Option 9</Menu.Item>
               <Menu.Item key="10">Option 10</Menu.Item>
               <Menu.Item key="11">Option 11</Menu.Item>
@@ -453,9 +566,9 @@ export default () => (
       <Component name="Steps">
         <Variant>
           <Steps size="small" current={1}>
-            <Steps.Step title="Finished" />
-            <Steps.Step title="In Progress" />
-            <Steps.Step title="Waiting" />
+            <Steps.Step title="Finished"/>
+            <Steps.Step title="In Progress"/>
+            <Steps.Step title="Waiting"/>
           </Steps>
         </Variant>
       </Component>
