@@ -1,6 +1,6 @@
 import React from 'react';
 import {Category, Component, Palette, Variant,} from '@react-buddy/ide-toolbox';
-import {SearchOutlined} from "@ant-design/icons";
+import {AppstoreOutlined, MailOutlined, SearchOutlined, SettingOutlined} from "@ant-design/icons";
 import Title from "antd/es/typography/Title";
 import Text from 'antd/es/typography/Text';
 import Link from 'antd/es/typography/Link';
@@ -9,10 +9,12 @@ import Button from 'antd/es/button';
 import Sider from "antd/es/layout/Sider";
 import Col from 'antd/es/grid/col';
 import Layout, {Content, Footer, Header} from "antd/es/layout/layout";
-import {Affix, Breadcrumb, Cascader, Divider, Dropdown, Input, Menu, Rate, Row, Space} from 'antd';
-import {AutoComplete, Card, DatePicker, InputNumber, Radio, Select, Table} from "antd/es";
+import {Affix, AutoComplete,
+  Breadcrumb, Card, Cascader, DatePicker, Divider, Dropdown, Input, InputNumber, Menu,
+  PageHeader, Pagination, Rate, Row, Select, Space, Steps, Table} from "antd/es";
 import Checkbox from "antd/es/checkbox/Checkbox";
-import {Group} from "antd/es/radio";
+import Radio, {Group} from "antd/es/radio";
+import SubMenu from 'antd/es/menu/SubMenu';
 
 export default () => (
   <Palette>
@@ -346,7 +348,6 @@ export default () => (
           <Affix offsetBottom={10}>Affix top</Affix>
         </Variant>
       </Component>
-      {/*
       <Component name="Breadcrumb">
         <Variant>
           <Breadcrumb>
@@ -368,7 +369,96 @@ export default () => (
           </Dropdown.Button>
         </Variant>
       </Component>
-      */}
+      <Component name="Menu">
+        <Variant name="vertical">
+          <Menu
+            style={{ width: 256 }}
+            defaultSelectedKeys={['1']}
+            defaultOpenKeys={['sub1']}
+            mode="inline"
+          >
+            <SubMenu key="sub1" icon={<MailOutlined />} title="Navigation One">
+              <Menu.ItemGroup key="g1" title="Item 1">
+                <Menu.Item key="1">Option 1</Menu.Item>
+                <Menu.Item key="2">Option 2</Menu.Item>
+              </Menu.ItemGroup>
+              <Menu.ItemGroup key="g2" title="Item 2">
+                <Menu.Item key="3">Option 3</Menu.Item>
+                <Menu.Item key="4">Option 4</Menu.Item>
+              </Menu.ItemGroup>
+            </SubMenu>
+            <SubMenu key="sub2" icon={<AppstoreOutlined />} title="Navigation Two">
+              <Menu.Item key="5">Option 5</Menu.Item>
+              <Menu.Item key="6">Option 6</Menu.Item>
+              <SubMenu key="sub3" title="Submenu">
+                <Menu.Item key="7">Option 7</Menu.Item>
+                <Menu.Item key="8">Option 8</Menu.Item>
+              </SubMenu>
+            </SubMenu>
+            <SubMenu key="sub4" icon={<SettingOutlined />} title="Navigation Three">
+              <Menu.Item key="9">Option 9</Menu.Item>
+              <Menu.Item key="10">Option 10</Menu.Item>
+              <Menu.Item key="11">Option 11</Menu.Item>
+              <Menu.Item key="12">Option 12</Menu.Item>
+            </SubMenu>
+          </Menu>
+        </Variant>
+        <Variant name="horizontal">
+          <Menu
+            defaultSelectedKeys={['1']}
+            defaultOpenKeys={['sub1']}
+            mode={"horizontal"}
+          >
+            <SubMenu key="sub1" icon={<MailOutlined/>} title="Navigation One">
+              <Menu.ItemGroup key="g1" title="Item 1">
+                <Menu.Item key="1">Option 1</Menu.Item>
+                <Menu.Item key="2">Option 2</Menu.Item>
+              </Menu.ItemGroup>
+              <Menu.ItemGroup key="g2" title="Item 2">
+                <Menu.Item key="3">Option 3</Menu.Item>
+                <Menu.Item key="4">Option 4</Menu.Item>
+              </Menu.ItemGroup>
+            </SubMenu>
+            <SubMenu key="sub2" icon={<AppstoreOutlined/>} title="Navigation Two">
+              <Menu.Item key="5">Option 5</Menu.Item>
+              <Menu.Item key="6">Option 6</Menu.Item>
+              <SubMenu key="sub3" title="Submenu">
+                <Menu.Item key="7">Option 7</Menu.Item>
+                <Menu.Item key="8">Option 8</Menu.Item>
+              </SubMenu>
+            </SubMenu>
+            <SubMenu key="sub4" icon={<SettingOutlined/>} title="Navigation Three">
+              <Menu.Item key="9">Option 9</Menu.Item>
+              <Menu.Item key="10">Option 10</Menu.Item>
+              <Menu.Item key="11">Option 11</Menu.Item>
+              <Menu.Item key="12">Option 12</Menu.Item>
+            </SubMenu>
+          </Menu>
+        </Variant>
+      </Component>
+      <Component name="PageHeader">
+        <Variant>
+          <PageHeader
+            onBack={() => null}
+            title="Title"
+            subTitle="This is a subtitle"
+          />
+        </Variant>
+      </Component>
+      <Component name="Pagination">
+        <Variant>
+          <Pagination showQuickJumper={true} showSizeChanger={true} defaultCurrent={2} total={500}/>
+        </Variant>
+      </Component>
+      <Component name="Steps">
+        <Variant>
+          <Steps size="small" current={1}>
+            <Steps.Step title="Finished" />
+            <Steps.Step title="In Progress" />
+            <Steps.Step title="Waiting" />
+          </Steps>
+        </Variant>
+      </Component>
     </Category>
   </Palette>
 );
