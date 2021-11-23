@@ -604,11 +604,11 @@ export default () => (
         </Variant>
       </Component>
       <Component name="Timeline">
-        <Variant requiredParams={['mode', 'pending']}>
-          <Timeline>
-            <Timeline.Item></Timeline.Item>
-            <Timeline.Item></Timeline.Item>
-            <Timeline.Item></Timeline.Item>
+        <Variant>
+          <Timeline mode={"alternate"}>
+            <Timeline.Item>Step 1</Timeline.Item>
+            <Timeline.Item>Step 2</Timeline.Item>
+            <Timeline.Item>Step 3</Timeline.Item>
           </Timeline>
         </Variant>
       </Component>
