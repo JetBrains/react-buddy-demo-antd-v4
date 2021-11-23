@@ -22,12 +22,13 @@ import {
   Breadcrumb, Calendar, Card, Carousel, Cascader,
   Collapse, Comment, DatePicker, Descriptions, Divider, Dropdown, Form, Input, InputNumber, Menu,
   PageHeader, Pagination, Rate, Row, Select, Slider, Space, Steps, Switch, Table, TimePicker,
-  Transfer, TreeSelect, Tooltip, Upload, Image, Empty, List, Popover, Statistic, Tabs, Tag, Timeline, Tree
+  Transfer, TreeSelect, Tooltip, Upload, Image, Empty, List, Popover, Statistic, Tabs, Tag, Timeline, Tree, Drawer, Modal, Popconfirm, Progress, Result, Skeleton, Spin
 } from "antd/es";
 import Checkbox from "antd/es/checkbox/Checkbox";
 import Radio, {Group} from "antd/es/radio";
 import SubMenu from 'antd/es/menu/SubMenu';
 import {TreeNode} from "antd/es/tree-select";
+import {Alert} from "antd";
 
 export default () => (
   <Palette>
@@ -777,6 +778,92 @@ export default () => (
             <Steps.Step title="In Progress"/>
             <Steps.Step title="Waiting"/>
           </Steps>
+        </Variant>
+      </Component>
+    </Category>
+    <Category name="Feedback">
+      <Component name="Alert">
+        <Variant name="success">
+          <Alert message="Success Text" type="success" />
+        </Variant>
+        <Variant name="info">
+          <Alert message="Info Text" type="info" />
+        </Variant>
+        <Variant name="warning">
+          <Alert message="Warning Text" type="warning" />
+        </Variant>
+        <Variant name="error">
+          <Alert message="Error Text" type="error" />
+        </Variant>
+      </Component>
+      <Component name="Drawer">
+        <Variant>
+          <Drawer
+            title="Basic Drawer"
+            placement={"left"}
+            closable={true}
+            visible={true}
+          >
+            <p>Some contents...</p>
+            <p>Some contents...</p>
+            <p>Some contents...</p>
+          </Drawer>
+        </Variant>
+      </Component>
+      <Component name="Modal">
+        <Variant>
+          <Modal title="Basic Modal" visible={true}>
+            <p>Some contents...</p>
+            <p>Some contents...</p>
+            <p>Some contents...</p>
+          </Modal>
+        </Variant>
+      </Component>
+      <Component name="Popconfirm">
+        <Variant>
+          <Popconfirm
+            title="Are you sure to delete this entity?"
+            okText="Yes"
+            cancelText="No"
+          >
+            <a href="#">Delete</a>
+          </Popconfirm>
+        </Variant>
+      </Component>
+      <Component name="Progress">
+        <Variant>
+          <Progress strokeLinecap="square" percent={30} />
+        </Variant>
+        <Variant name="circle">
+          <Progress strokeLinecap="square" type="circle" percent={30} />
+        </Variant>
+        <Variant name="dashboard">
+          <Progress strokeLinecap="square" type="dashboard" percent={30} />
+        </Variant>
+      </Component>
+      <Component name="Result">
+        <Variant>
+          <Result
+            status="success"
+            title="Successfully Purchased!"
+            subTitle="Order number: 2017182818828182881, configuration takes 1-5 minutes, please wait."
+            extra={[
+              <Button type="primary" key="console">
+                Manage
+              </Button>,
+              <Button key="buy">Buy Again</Button>,
+            ]}
+          />
+        </Variant>
+      </Component>
+      <Component name="Skeleton">
+        <Variant>
+          <Skeleton loading={true} active={true} avatar={true}/>
+        </Variant>
+      </Component>
+      <Component name="Spin">
+        <Variant>
+          <Spin />
         </Variant>
       </Component>
     </Category>
