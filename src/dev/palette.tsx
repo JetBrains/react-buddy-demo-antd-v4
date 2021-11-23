@@ -466,7 +466,7 @@ export default () => (
       </Component>
       <Component name="Card">
         <Variant>
-          <Card title="Card title" style={{width: 300}}>
+          <Card title="Card title">
             <p>Card content</p>
             <p>Card content</p>
             <p>Card content</p>
@@ -693,7 +693,6 @@ export default () => (
       <Component name="Menu">
         <Variant name="vertical">
           <Menu
-            style={{width: 256}}
             defaultSelectedKeys={['1']}
             defaultOpenKeys={['sub1']}
             mode="inline"
