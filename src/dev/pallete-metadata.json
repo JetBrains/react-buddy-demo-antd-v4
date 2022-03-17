@@ -1,0 +1,377 @@
+{
+  "antd/es/button/Button": {
+    "outlineProps": [
+      "type",
+      "icon",
+      "children"
+    ]
+  },
+  "antd/es/typography/Title/Title": {
+    "outlineProps": [
+      "level",
+      "children"
+    ]
+  },
+  "antd/es/typography/Text/Text": {
+    "outlineProps": [
+      "type",
+      "children"
+    ]
+  },
+  "antd/es/typography/Link/Link": {
+    "outlineProps": [
+      "href",
+      "children"
+    ]
+  },
+  "antd/es/grid/col/Col": {
+    "outlineProps": [
+      "children"
+    ]
+  },
+  "antd/es/Divider": {
+    "outlineProps": [
+      "type",
+      "children"
+    ]
+  },
+  "antd/es/layout/layout/Header": {
+    "outlineProps": [
+      "children"
+    ]
+  },
+  "antd/es/layout/layout/Content": {
+    "outlineProps": [
+      "children"
+    ]
+  },
+  "antd/es/layout/layout/Footer": {
+    "outlineProps": [
+      "children"
+    ]
+  },
+  "antd/es/layout/Sider/Sider": {
+    "outlineProps": [
+      "children"
+    ]
+  },
+  "antd/es/AutoComplete": {
+    "outlineProps": [
+      "children"
+    ]
+  },
+  "antd/es/Cascader": {
+    "outlineProps": [
+      "fieldNames",
+      "options"
+    ]
+  },
+  "antd/es/checkbox/Checkbox/Checkbox": {
+    "outlineProps": [
+      "children"
+    ]
+  },
+  "antd/es/DatePicker": {
+    "outlineProps": [
+      "picker"
+    ]
+  },
+  "antd/es/Input": {
+    "outlineProps": [
+      "id",
+      "itemId"
+    ]
+  },
+  "antd/es/InputNumber": {
+    "outlineProps": [
+      "id",
+      "itemId"
+    ]
+  },
+  "antd/es/radio/Radio": {
+    "outlineProps": [
+      "children"
+    ]
+  },
+  "antd/es/Rate": {
+    "outlineProps": []
+  },
+  "antd/es/Avatar": {
+    "outlineProps": [
+      "icon",
+      "src",
+      "children"
+    ]
+  },
+  "antd/es/Avatar.Group": {
+    "outlineProps": []
+  },
+  "antd/es/Badge": {
+    "outlineProps": [
+      "status",
+      "count",
+      "text",
+      "children"
+    ]
+  },
+  "antd/es/Badge.Ribbon": {
+    "outlineProps": [
+      "text",
+      "children"
+    ]
+  },
+  "antd/es/Calendar": {
+    "outlineProps": []
+  },
+  "antd/es/Card": {
+    "outlineProps": [
+      "title"
+    ]
+  },
+  "antd/es/Card.Grid": {
+    "outlineProps": [
+      "children"
+    ]
+  },
+  "antd/es/Carousel": {
+    "outlineProps": []
+  },
+  "antd/es/Collapse": {
+    "outlineProps": []
+  },
+  "antd/es/Collapse.Panel": {
+    "outlineProps": [
+      "header",
+      "key"
+    ]
+  },
+  "antd/es/Comment": {
+    "outlineProps": [
+      "author",
+      "avatar",
+      "content",
+      "children"
+    ]
+  },
+  "antd/es/Descriptions": {
+    "outlineProps": [
+      "title"
+    ]
+  },
+  "antd/es/Descriptions.Item": {
+    "outlineProps": [
+      "label",
+      "children"
+    ]
+  },
+  "antd/es/Empty": {
+    "outlineProps": [
+      "image",
+      "description",
+      "children"
+    ]
+  },
+  "antd/es/Image": {
+    "outlineProps": [
+      "src"
+    ]
+  },
+  "antd/es/Image.PreviewGroup": {
+    "outlineProps": []
+  },
+  "antd/es/List": {
+    "outlineProps": [
+      "dataSource"
+    ]
+  },
+  "antd/es/List.Item": {
+    "outlineProps": []
+  },
+  "antd/es/List.Item.Meta": {
+    "outlineProps": [
+      "title",
+      "description"
+    ]
+  },
+  "antd/es/Popover": {
+    "outlineProps": [
+      "title",
+      "content"
+    ]
+  },
+  "antd/es/Statistic": {
+    "outlineProps": [
+      "title"
+    ]
+  },
+  "antd/es/Table": {
+    "outlineProps": [
+      "columns",
+      "title"
+    ]
+  },
+  "antd/es/Table.Column": {
+    "outlineProps": [
+      "title",
+      "dataIndex",
+      "key"
+    ]
+  },
+  "antd/es/Table.Summary.Cell": {
+    "outlineProps": [
+      "index"
+    ]
+  },
+  "antd/es/Tabs.TabPane": {
+    "outlineProps": [
+      "tab",
+      "key",
+      "children"
+    ]
+  },
+  "antd/es/Timeline.Item": {
+    "outlineProps": [
+      "label",
+      "children"
+    ]
+  },
+  "antd/es/Tooltip": {
+    "outlineProps": [
+      "title",
+      "children"
+    ]
+  },
+  "antd/es/Tag": {
+    "outlineProps": [
+      "children"
+    ]
+  },
+  "antd/es/Tree": {
+    "outlineProps": [
+      "treeData"
+    ]
+  },
+  "antd/es/Tree.DirectoryTree": {
+    "outlineProps": [
+      "treeData"
+    ]
+  },
+  "antd/es/Affix": {
+    "outlineProps": [
+      "children"
+    ]
+  },
+  "antd/es/Breadcrumb": {
+    "outlineProps": [
+      "separator"
+    ]
+  },
+  "antd/es/Breadcrumb.Item": {
+    "outlineProps": [
+      "children",
+      "href"
+    ]
+  },
+  "antd/es/Breadcrumb.Separator": {
+    "outlineProps": [
+      "children"
+    ]
+  },
+  "antd/es/Dropdown": {
+    "outlineProps": []
+  },
+  "antd/es/Menu": {
+    "outlineProps": [
+      "mode"
+    ]
+  },
+  "antd/es/menu/SubMenu/SubMenu": {
+    "outlineProps": [
+      "key",
+      "title",
+      "children"
+    ]
+  },
+  "antd/es/Menu.ItemGroup": {
+    "outlineProps": [
+      "key",
+      "title",
+      "children"
+    ]
+  },
+  "antd/es/Menu.Item": {
+    "outlineProps": [
+      "key",
+      "title",
+      "children"
+    ]
+  },
+  "antd/es/PageHeader": {
+    "outlineProps": [
+      "title",
+      "subTitle"
+    ]
+  },
+  "antd/es/Pagination": {
+    "outlineProps": [
+      "total"
+    ]
+  },
+  "antd/es/Steps": {
+    "outlineProps": [
+      "status",
+      "direction",
+      "current"
+    ]
+  },
+  "antd/es/Steps.Step": {
+    "outlineProps": [
+      "title",
+      "description"
+    ]
+  },
+  "antd/Alert": {
+    "outlineProps": [
+      "message",
+      "title"
+    ]
+  },
+  "antd/es/Modal": {
+    "outlineProps": [
+      "title",
+      "children"
+    ]
+  },
+  "antd/es/Drawer": {
+    "outlineProps": [
+      "title",
+      "children"
+    ]
+  },
+  "antd/es/Popconfirm": {
+    "outlineProps": [
+      "title",
+      "children"
+    ]
+  },
+  "antd/es/Progress": {
+    "outlineProps": [
+      "percent",
+      "type",
+      "status"
+    ]
+  },
+  "antd/es/Result": {
+    "outlineProps": [
+      "status",
+      "title",
+      "children"
+    ]
+  },
+  "antd/es/Skeleton": {
+    "outlineProps": [
+      "title",
+      "children"
+    ]
+  }
+}
