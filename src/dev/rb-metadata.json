@@ -5,6 +5,10 @@
         "antd",
         "antd/es/button"
       ],
+      "categories": [
+        "General",
+        "Style"
+      ],
       "props": {
         "type": {
           "category": "General",
