@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
-    "@react-buddy/ide-toolbox": "^1.1.0",
+    "@react-buddy/ide-toolbox": "^2.2.0",
     "@react-buddy/react-scripts": "^1.0.1",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",

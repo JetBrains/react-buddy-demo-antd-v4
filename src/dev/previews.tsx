@@ -3,7 +3,7 @@ import { Previews, ComponentPreview } from '@react-buddy/ide-toolbox';
 import App from '../App';
 import ProjectPalette from './palette';
 
-export const ComponentPreviews = () => {
+const ComponentPreviews = () => {
   return (
     <Previews palette={<ProjectPalette/>}>
       <ComponentPreview path="/App">
@@ -12,3 +12,5 @@ export const ComponentPreviews = () => {
     </Previews>
   );
 };
+
+export default ComponentPreviews;
