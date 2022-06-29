@@ -29,8 +29,766 @@ import {
   SmileOutlined,
   SolutionOutlined,
   UserOutlined,
-  YoutubeOutlined
-} from "@ant-design/icons";
+  YoutubeOutlined,
+  StepBackwardOutlined,
+  StepForwardOutlined,
+  FastBackwardOutlined,
+  FastForwardOutlined,
+  ShrinkOutlined,
+  ArrowsAltOutlined,
+  UpOutlined,
+  LeftOutlined,
+  RightOutlined,
+  CaretUpOutlined,
+  CaretDownOutlined,
+  CaretLeftOutlined,
+  UpCircleOutlined,
+  DownCircleOutlined,
+  LeftCircleOutlined,
+  RightCircleOutlined,
+  DoubleRightOutlined,
+  DoubleLeftOutlined,
+  VerticalLeftOutlined,
+  VerticalRightOutlined,
+  VerticalAlignTopOutlined,
+  VerticalAlignMiddleOutlined,
+  VerticalAlignBottomOutlined,
+  ForwardOutlined,
+  BackwardOutlined,
+  RollbackOutlined,
+  EnterOutlined,
+  RetweetOutlined,
+  SwapOutlined,
+  SwapLeftOutlined,
+  SwapRightOutlined,
+  ArrowUpOutlined,
+  ArrowDownOutlined,
+  ArrowLeftOutlined,
+  ArrowRightOutlined,
+  PlayCircleOutlined,
+  UpSquareOutlined,
+  DownSquareOutlined,
+  LeftSquareOutlined,
+  RightSquareOutlined,
+  LoginOutlined,
+  LogoutOutlined,
+  MenuFoldOutlined,
+  MenuUnfoldOutlined,
+  BorderBottomOutlined,
+  BorderHorizontalOutlined,
+  BorderInnerOutlined,
+  BorderOuterOutlined,
+  BorderLeftOutlined,
+  BorderRightOutlined,
+  BorderTopOutlined,
+  BorderVerticleOutlined,
+  PicCenterOutlined,
+  PicLeftOutlined,
+  PicRightOutlined,
+  RadiusBottomleftOutlined,
+  RadiusBottomrightOutlined,
+  RadiusUpleftOutlined,
+  RadiusUprightOutlined,
+  FullscreenOutlined,
+  FullscreenExitOutlined,
+  QuestionOutlined,
+  PlusOutlined,
+  PlusCircleOutlined,
+  PauseOutlined,
+  PauseCircleOutlined,
+  MinusOutlined,
+  MinusCircleOutlined,
+  PlusSquareOutlined,
+  MinusSquareOutlined,
+  InfoOutlined,
+  InfoCircleOutlined,
+  ExclamationOutlined,
+  ExclamationCircleOutlined,
+  CloseOutlined,
+  CloseSquareOutlined,
+  CheckOutlined,
+  CheckCircleOutlined,
+  CheckSquareOutlined,
+  WarningOutlined,
+  IssuesCloseOutlined,
+  StopOutlined,
+  FormOutlined,
+  CopyOutlined,
+  ScissorOutlined,
+  DeleteOutlined,
+  SnippetsOutlined,
+  DiffOutlined,
+  HighlightOutlined,
+  AlignCenterOutlined,
+  AlignLeftOutlined,
+  AlignRightOutlined,
+  BgColorsOutlined,
+  BoldOutlined,
+  ItalicOutlined,
+  UnderlineOutlined,
+  StrikethroughOutlined,
+  RedoOutlined,
+  UndoOutlined,
+  ZoomInOutlined,
+  ZoomOutOutlined,
+  FontColorsOutlined,
+  FontSizeOutlined,
+  LineHeightOutlined,
+  DashOutlined,
+  SmallDashOutlined,
+  SortAscendingOutlined,
+  SortDescendingOutlined,
+  DragOutlined,
+  OrderedListOutlined,
+  UnorderedListOutlined,
+  RadiusSettingOutlined,
+  ColumnWidthOutlined,
+  ColumnHeightOutlined,
+  AreaChartOutlined,
+  PieChartOutlined,
+  BarChartOutlined,
+  DotChartOutlined,
+  LineChartOutlined,
+  RadarChartOutlined,
+  HeatMapOutlined,
+  FallOutlined,
+  RiseOutlined,
+  StockOutlined,
+  BoxPlotOutlined,
+  FundOutlined,
+  SlidersOutlined,
+  WindowsOutlined,
+  IeOutlined,
+  ChromeOutlined,
+  GithubOutlined,
+  AliwangwangOutlined,
+  DingdingOutlined,
+  WeiboSquareOutlined,
+  WeiboCircleOutlined,
+  TaobaoCircleOutlined,
+  Html5Outlined,
+  WeiboOutlined,
+  TwitterOutlined,
+  WechatOutlined,
+  AlipayCircleOutlined,
+  TaobaoOutlined,
+  SkypeOutlined,
+  QqOutlined,
+  MediumWorkmarkOutlined,
+  GitlabOutlined,
+  MediumOutlined,
+  LinkedinOutlined,
+  GooglePlusOutlined,
+  DropboxOutlined,
+  FacebookOutlined,
+  CodepenOutlined,
+  CodeSandboxOutlined,
+  AmazonOutlined,
+  GoogleOutlined,
+  CodepenCircleOutlined,
+  AlipayOutlined,
+  AntDesignOutlined,
+  AntCloudOutlined,
+  AliyunOutlined,
+  ZhihuOutlined,
+  SlackOutlined,
+  SlackSquareOutlined,
+  BehanceOutlined,
+  BehanceSquareOutlined,
+  DribbbleOutlined,
+  DribbbleSquareOutlined,
+  InstagramOutlined,
+  YuqueOutlined,
+  AlibabaOutlined,
+  YahooOutlined,
+  RedditOutlined,
+  SketchOutlined,
+  AccountBookOutlined,
+  AimOutlined,
+  AlertOutlined,
+  ApartmentOutlined,
+  ApiOutlined,
+  AppstoreAddOutlined,
+  AudioOutlined,
+  AudioMutedOutlined,
+  AuditOutlined,
+  BankOutlined,
+  BarcodeOutlined,
+  BarsOutlined,
+  BellOutlined,
+  BlockOutlined,
+  BookOutlined,
+  BorderOutlined,
+  BorderlessTableOutlined,
+  BranchesOutlined,
+  BugOutlined,
+  BuildOutlined,
+  BulbOutlined,
+  CalculatorOutlined,
+  CalendarOutlined,
+  CameraOutlined,
+  CarOutlined,
+  CarryOutOutlined,
+  CiCircleOutlined,
+  CiOutlined,
+  ClearOutlined,
+  CloudDownloadOutlined,
+  CloudOutlined,
+  CloudServerOutlined,
+  CloudSyncOutlined,
+  CloudUploadOutlined,
+  ClusterOutlined,
+  CodeOutlined,
+  CoffeeOutlined,
+  CommentOutlined,
+  CompassOutlined,
+  CompressOutlined,
+  ConsoleSqlOutlined,
+  ContactsOutlined,
+  ContainerOutlined,
+  ControlOutlined,
+  CopyrightOutlined,
+  CreditCardOutlined,
+  CrownOutlined,
+  CustomerServiceOutlined,
+  DashboardOutlined,
+  DatabaseOutlined,
+  DeleteColumnOutlined,
+  DeleteRowOutlined,
+  DeliveredProcedureOutlined,
+  DeploymentUnitOutlined,
+  DesktopOutlined,
+  DingtalkOutlined,
+  DisconnectOutlined,
+  DislikeOutlined,
+  DollarCircleOutlined,
+  DollarOutlined,
+  DownloadOutlined,
+  EnvironmentOutlined,
+  EuroCircleOutlined,
+  EuroOutlined,
+  ExceptionOutlined,
+  ExpandAltOutlined,
+  ExpandOutlined,
+  ExperimentOutlined,
+  ExportOutlined,
+  EyeOutlined,
+  EyeInvisibleOutlined,
+  FieldBinaryOutlined,
+  FieldNumberOutlined,
+  FieldStringOutlined,
+  FieldTimeOutlined,
+  FileAddOutlined,
+  FileDoneOutlined,
+  FileExcelOutlined,
+  FileExclamationOutlined,
+  FileOutlined,
+  FileGifOutlined,
+  FileImageOutlined,
+  FileJpgOutlined,
+  FileMarkdownOutlined,
+  FilePdfOutlined,
+  FilePptOutlined,
+  FileProtectOutlined,
+  FileSearchOutlined,
+  FileSyncOutlined,
+  FileTextOutlined,
+  FileUnknownOutlined,
+  FileWordOutlined,
+  FileZipOutlined,
+  FilterOutlined,
+  FireOutlined,
+  FlagOutlined,
+  FolderAddOutlined,
+  FolderOutlined,
+  FolderOpenOutlined,
+  FolderViewOutlined,
+  ForkOutlined,
+  FormatPainterOutlined,
+  FunctionOutlined,
+  FundProjectionScreenOutlined,
+  FundViewOutlined,
+  FunnelPlotOutlined,
+  GatewayOutlined,
+  GifOutlined,
+  GiftOutlined,
+  GlobalOutlined,
+  GoldOutlined,
+  GroupOutlined,
+  HddOutlined,
+  HeartOutlined,
+  HistoryOutlined,
+  HolderOutlined,
+  HourglassOutlined,
+  IdcardOutlined,
+  ImportOutlined,
+  InboxOutlined,
+  InsertRowAboveOutlined,
+  InsertRowBelowOutlined,
+  InsertRowLeftOutlined,
+  InsertRowRightOutlined,
+  InsuranceOutlined,
+  InteractionOutlined,
+  KeyOutlined,
+  LaptopOutlined,
+  LayoutOutlined,
+  LineOutlined,
+  LinkOutlined,
+  Loading3QuartersOutlined,
+  LockOutlined,
+  MacCommandOutlined,
+  ManOutlined,
+  MedicineBoxOutlined,
+  MenuOutlined,
+  MergeCellsOutlined,
+  MessageOutlined,
+  MobileOutlined,
+  MoneyCollectOutlined,
+  MonitorOutlined,
+  MoreOutlined,
+  NodeCollapseOutlined,
+  NodeExpandOutlined,
+  NodeIndexOutlined,
+  NumberOutlined,
+  OneToOneOutlined,
+  PartitionOutlined,
+  PaperClipOutlined,
+  PayCircleOutlined,
+  PercentageOutlined,
+  PhoneOutlined,
+  PictureOutlined,
+  PlaySquareOutlined,
+  PoundCircleOutlined,
+  PoweroffOutlined,
+  PrinterOutlined,
+  ProfileOutlined,
+  ProjectOutlined,
+  PropertySafetyOutlined,
+  PullRequestOutlined,
+  PushpinOutlined,
+  QrcodeOutlined,
+  ReadOutlined,
+  ReconciliationOutlined,
+  RedEnvelopeOutlined,
+  ReloadOutlined,
+  RestOutlined,
+  RobotOutlined,
+  RocketOutlined,
+  RotateLeftOutlined,
+  RotateRightOutlined,
+  SafetyCertificateOutlined,
+  SafetyOutlined,
+  SaveOutlined,
+  ScanOutlined,
+  ScheduleOutlined,
+  SecurityScanOutlined,
+  SelectOutlined,
+  SendOutlined,
+  ShakeOutlined,
+  ShareAltOutlined,
+  ShopOutlined,
+  ShoppingCartOutlined,
+  ShoppingOutlined,
+  SisternodeOutlined,
+  SkinOutlined,
+  SoundOutlined,
+  SplitCellsOutlined,
+  StarOutlined,
+  SubnodeOutlined,
+  SwitcherOutlined,
+  SyncOutlined,
+  TableOutlined,
+  TabletOutlined,
+  TagOutlined,
+  TagsOutlined,
+  TeamOutlined,
+  ThunderboltOutlined,
+  ToTopOutlined,
+  ToolOutlined,
+  TrademarkCircleOutlined,
+  TrademarkOutlined,
+  TransactionOutlined,
+  TranslationOutlined,
+  TrophyOutlined,
+  UngroupOutlined,
+  UnlockOutlined,
+  UploadOutlined,
+  UsbOutlined,
+  UserAddOutlined,
+  UserDeleteOutlined,
+  UserSwitchOutlined,
+  UsergroupAddOutlined,
+  UsergroupDeleteOutlined,
+  VerifiedOutlined,
+  VideoCameraAddOutlined,
+  VideoCameraOutlined,
+  WalletOutlined,
+  WhatsAppOutlined,
+  WifiOutlined,
+  WomanOutlined,
+  StepBackwardFilled,
+  StepForwardFilled,
+  FastBackwardFilled,
+  FastForwardFilled,
+  CaretUpFilled,
+  CaretDownFilled,
+  CaretLeftFilled,
+  CaretRightFilled,
+  UpCircleFilled,
+  DownCircleFilled,
+  LeftCircleFilled,
+  RightCircleFilled,
+  ForwardFilled,
+  BackwardFilled,
+  PlayCircleFilled,
+  UpSquareFilled,
+  DownSquareFilled,
+  LeftSquareFilled,
+  RightSquareFilled,
+  QuestionCircleFilled,
+  PlusCircleFilled,
+  PauseCircleFilled,
+  MinusCircleFilled,
+  PlusSquareFilled,
+  MinusSquareFilled,
+  InfoCircleFilled,
+  ExclamationCircleFilled,
+  CloseCircleFilled,
+  CloseSquareFilled,
+  CheckCircleFilled,
+  CheckSquareFilled,
+  ClockCircleFilled,
+  WarningFilled,
+  StopFilled,
+  EditFilled,
+  CopyFilled,
+  DeleteFilled,
+  SnippetsFilled,
+  DiffFilled,
+  HighlightFilled,
+  PieChartFilled,
+  BoxPlotFilled,
+  FundFilled,
+  SlidersFilled,
+  AndroidFilled,
+  AppleFilled,
+  WindowsFilled,
+  ChromeFilled,
+  GithubFilled,
+  AliwangwangFilled,
+  WeiboSquareFilled,
+  WeiboCircleFilled,
+  TaobaoCircleFilled,
+  Html5Filled,
+  WechatFilled,
+  YoutubeFilled,
+  AlipayCircleFilled,
+  SkypeFilled,
+  GitlabFilled,
+  LinkedinFilled,
+  FacebookFilled,
+  CodeSandboxCircleFilled,
+  CodepenCircleFilled,
+  SlackSquareFilled,
+  BehanceSquareFilled,
+  DribbbleSquareFilled,
+  InstagramFilled,
+  YuqueFilled,
+  YahooFilled,
+  AccountBookFilled,
+  AlertFilled,
+  AlipaySquareFilled,
+  AmazonCircleFilled,
+  ApiFilled,
+  AppstoreFilled,
+  AudioFilled,
+  BankFilled,
+  BehanceCircleFilled,
+  BellFilled,
+  BookFilled,
+  BugFilled,
+  BuildFilled,
+  CalculatorFilled,
+  CalendarFilled,
+  CameraFilled,
+  CarFilled,
+  CarryOutFilled,
+  CiCircleFilled,
+  CloudFilled,
+  CodeFilled,
+  CodeSandboxSquareFilled,
+  CodepenSquareFilled,
+  CompassFilled,
+  ContactsFilled,
+  ContainerFilled,
+  ControlFilled,
+  CreditCardFilled,
+  CrownFilled,
+  CustomerServiceFilled,
+  DashboardFilled,
+  DatabaseFilled,
+  DingtalkCircleFilled,
+  DingtalkSquareFilled,
+  DislikeFilled,
+  DollarCircleFilled,
+  DribbbleCircleFilled,
+  DropboxCircleFilled,
+  DropboxSquareFilled,
+  EnvironmentFilled,
+  EuroCircleFilled,
+  ExperimentFilled,
+  EyeFilled,
+  EyeInvisibleFilled,
+  FileAddFilled,
+  FileExcelFilled,
+  FileExclamationFilled,
+  FileFilled,
+  FileImageFilled,
+  FileMarkdownFilled,
+  FilePdfFilled,
+  FilePptFilled,
+  FileTextFilled,
+  FileUnknownFilled,
+  FileWordFilled,
+  FileZipFilled,
+  FilterFilled,
+  FireFilled,
+  FlagFilled,
+  FolderAddFilled,
+  FolderFilled,
+  FolderOpenFilled,
+  FormatPainterFilled,
+  FunnelPlotFilled,
+  GiftFilled,
+  GoldFilled,
+  GoldenFilled,
+  GoogleCircleFilled,
+  GooglePlusCircleFilled,
+  GooglePlusSquareFilled,
+  GoogleSquareFilled,
+  HddFilled,
+  HeartFilled,
+  HomeFilled,
+  HourglassFilled,
+  IdcardFilled,
+  IeCircleFilled,
+  IeSquareFilled,
+  InsuranceFilled,
+  InteractionFilled,
+  LayoutFilled,
+  LikeFilled,
+  LockFilled,
+  MacCommandFilled,
+  MailFilled,
+  MedicineBoxFilled,
+  MediumCircleFilled,
+  MediumSquareFilled,
+  MehFilled,
+  MessageFilled,
+  MobileFilled,
+  MoneyCollectFilled,
+  NotificationFilled,
+  PayCircleFilled,
+  PhoneFilled,
+  PictureFilled,
+  PlaySquareFilled,
+  PoundCircleFilled,
+  PrinterFilled,
+  ProfileFilled,
+  ProjectFilled,
+  PropertySafetyFilled,
+  PushpinFilled,
+  QqCircleFilled,
+  QqSquareFilled,
+  ReadFilled,
+  ReconciliationFilled,
+  RedEnvelopeFilled,
+  RedditCircleFilled,
+  RedditSquareFilled,
+  RestFilled,
+  RobotFilled,
+  RocketFilled,
+  SafetyCertificateFilled,
+  SaveFilled,
+  ScheduleFilled,
+  SecurityScanFilled,
+  SettingFilled,
+  ShopFilled,
+  ShoppingFilled,
+  SignalFilled,
+  SketchCircleFilled,
+  SketchSquareFilled,
+  SkinFilled,
+  SlackCircleFilled,
+  SmileFilled,
+  SoundFilled,
+  StarFilled,
+  SwitcherFilled,
+  TabletFilled,
+  TagFilled,
+  TagsFilled,
+  TaobaoSquareFilled,
+  ThunderboltFilled,
+  ToolFilled,
+  TrademarkCircleFilled,
+  TrophyFilled,
+  TwitterCircleFilled,
+  TwitterSquareFilled,
+  UnlockFilled,
+  UsbFilled,
+  VideoCameraFilled,
+  WalletFilled,
+  ZhihuCircleFilled,
+  ZhihuSquareFilled,
+  UpCircleTwoTone,
+  DownCircleTwoTone,
+  LeftCircleTwoTone,
+  RightCircleTwoTone,
+  PlayCircleTwoTone,
+  UpSquareTwoTone,
+  DownSquareTwoTone,
+  LeftSquareTwoTone,
+  RightSquareTwoTone,
+  QuestionCircleTwoTone,
+  PlusCircleTwoTone,
+  PauseCircleTwoTone,
+  MinusCircleTwoTone,
+  PlusSquareTwoTone,
+  MinusSquareTwoTone,
+  InfoCircleTwoTone,
+  ExclamationCircleTwoTone,
+  CloseCircleTwoTone,
+  CloseSquareTwoTone,
+  CheckCircleTwoTone,
+  CheckSquareTwoTone,
+  ClockCircleTwoTone,
+  WarningTwoTone,
+  StopTwoTone,
+  EditTwoTone,
+  CopyTwoTone,
+  DeleteTwoTone,
+  SnippetsTwoTone,
+  DiffTwoTone,
+  HighlightTwoTone,
+  PieChartTwoTone,
+  BoxPlotTwoTone,
+  FundTwoTone,
+  SlidersTwoTone,
+  Html5TwoTone,
+  AccountBookTwoTone,
+  AlertTwoTone,
+  ApiTwoTone,
+  AppstoreTwoTone,
+  AudioTwoTone,
+  BankTwoTone,
+  BellTwoTone,
+  BookTwoTone,
+  BugTwoTone,
+  BuildTwoTone,
+  BulbTwoTone,
+  CalculatorTwoTone,
+  CalendarTwoTone,
+  CameraTwoTone,
+  CarTwoTone,
+  CarryOutTwoTone,
+  CiCircleTwoTone,
+  CiTwoTone,
+  CloudTwoTone,
+  CreditCardTwoTone,
+  CrownTwoTone,
+  CustomerServiceTwoTone,
+  DashboardTwoTone,
+  DatabaseTwoTone,
+  CodeTwoTone,
+  CompassTwoTone,
+  ContactsTwoTone,
+  ContainerTwoTone,
+  ControlTwoTone,
+  DislikeTwoTone,
+  DollarCircleTwoTone,
+  DollarTwoTone,
+  EnvironmentTwoTone,
+  EuroCircleTwoTone,
+  EuroTwoTone,
+  ExperimentTwoTone,
+  EyeTwoTone,
+  EyeInvisibleTwoTone,
+  FileAddTwoTone,
+  FileExcelTwoTone,
+  FileExclamationTwoTone,
+  FileTwoTone,
+  FileImageTwoTone,
+  FileMarkdownTwoTone,
+  FilePdfTwoTone,
+  FilePptTwoTone,
+  FileTextTwoTone,
+  FileUnknownTwoTone,
+  FileWordTwoTone,
+  FileZipTwoTone,
+  FilterTwoTone,
+  FireTwoTone,
+  FlagTwoTone,
+  FolderAddTwoTone,
+  FolderTwoTone,
+  FolderOpenTwoTone,
+  FrownTwoTone,
+  FunnelPlotTwoTone,
+  GiftTwoTone,
+  GoldTwoTone,
+  HddTwoTone,
+  HeartTwoTone,
+  HomeTwoTone,
+  HourglassTwoTone,
+  IdcardTwoTone,
+  InsuranceTwoTone,
+  InteractionTwoTone,
+  LayoutTwoTone,
+  LikeTwoTone,
+  LockTwoTone,
+  MailTwoTone,
+  MedicineBoxTwoTone,
+  MehTwoTone,
+  MessageTwoTone,
+  MobileTwoTone,
+  MoneyCollectTwoTone,
+  NotificationTwoTone,
+  PhoneTwoTone,
+  PictureTwoTone,
+  PlaySquareTwoTone,
+  PoundCircleTwoTone,
+  PrinterTwoTone,
+  ProfileTwoTone,
+  ProjectTwoTone,
+  PropertySafetyTwoTone,
+  PushpinTwoTone,
+  ReconciliationTwoTone,
+  RedEnvelopeTwoTone,
+  RestTwoTone,
+  RocketTwoTone,
+  SafetyCertificateTwoTone,
+  SaveTwoTone,
+  ScheduleTwoTone,
+  SecurityScanTwoTone,
+  SettingTwoTone,
+  ShopTwoTone,
+  ShoppingTwoTone,
+  SkinTwoTone,
+  SmileTwoTone,
+  SoundTwoTone,
+  StarTwoTone,
+  SwitcherTwoTone,
+  TabletTwoTone,
+  TagTwoTone,
+  TagsTwoTone,
+  ThunderboltTwoTone,
+  ToolTwoTone,
+  TrademarkCircleTwoTone,
+  TrophyTwoTone,
+  UnlockTwoTone,
+  UsbTwoTone,
+  VideoCameraTwoTone,
+  WalletTwoTone,
+} from '@ant-design/icons';
 import Title from "antd/es/typography/Title";
 import Text from "antd/es/typography/Text";
 import Link from "antd/es/typography/Link";
@@ -2872,6 +3630,2360 @@ const palette = () => (
         </Variant>
         <Variant name="large size">
           <Spin size="large" />
+        </Variant>
+      </Component>
+    </Category>
+    <Category name="icons">
+      <Component name="Outlined">
+        <Variant name="StepBackwardOutlined">
+          <StepBackwardOutlined />
+        </Variant>
+        <Variant name="StepForwardOutlined">
+          <StepForwardOutlined />
+        </Variant>
+        <Variant name="FastBackwardOutlined">
+          <FastBackwardOutlined />
+        </Variant>
+        <Variant name="FastForwardOutlined">
+          <FastForwardOutlined />
+        </Variant>
+        <Variant name="ShrinkOutlined">
+          <ShrinkOutlined />
+        </Variant>
+        <Variant name="ArrowsAltOutlined">
+          <ArrowsAltOutlined />
+        </Variant>
+        <Variant name="DownOutlined">
+          <DownOutlined />
+        </Variant>
+        <Variant name="UpOutlined">
+          <UpOutlined />
+        </Variant>
+        <Variant name="LeftOutlined">
+          <LeftOutlined />
+        </Variant>
+        <Variant name="RightOutlined">
+          <RightOutlined />
+        </Variant>
+        <Variant name="CaretUpOutlined">
+          <CaretUpOutlined />
+        </Variant>
+        <Variant name="CaretDownOutlined">
+          <CaretDownOutlined />
+        </Variant>
+        <Variant name="CaretLeftOutlined">
+          <CaretLeftOutlined />
+        </Variant>
+        <Variant name="CaretRightOutlined">
+          <CaretRightOutlined />
+        </Variant>
+        <Variant name="UpCircleOutlined">
+          <UpCircleOutlined />
+        </Variant>
+        <Variant name="DownCircleOutlined">
+          <DownCircleOutlined />
+        </Variant>
+        <Variant name="LeftCircleOutlined">
+          <LeftCircleOutlined />
+        </Variant>
+        <Variant name="RightCircleOutlined">
+          <RightCircleOutlined />
+        </Variant>
+        <Variant name="DoubleRightOutlined">
+          <DoubleRightOutlined />
+        </Variant>
+        <Variant name="DoubleLeftOutlined">
+          <DoubleLeftOutlined />
+        </Variant>
+        <Variant name="VerticalLeftOutlined">
+          <VerticalLeftOutlined />
+        </Variant>
+        <Variant name="VerticalRightOutlined">
+          <VerticalRightOutlined />
+        </Variant>
+        <Variant name="VerticalAlignTopOutlined">
+          <VerticalAlignTopOutlined />
+        </Variant>
+        <Variant name="VerticalAlignMiddleOutlined">
+          <VerticalAlignMiddleOutlined />
+        </Variant>
+        <Variant name="VerticalAlignBottomOutlined">
+          <VerticalAlignBottomOutlined />
+        </Variant>
+        <Variant name="ForwardOutlined">
+          <ForwardOutlined />
+        </Variant>
+        <Variant name="BackwardOutlined">
+          <BackwardOutlined />
+        </Variant>
+        <Variant name="RollbackOutlined">
+          <RollbackOutlined />
+        </Variant>
+        <Variant name="EnterOutlined">
+          <EnterOutlined />
+        </Variant>
+        <Variant name="RetweetOutlined">
+          <RetweetOutlined />
+        </Variant>
+        <Variant name="SwapOutlined">
+          <SwapOutlined />
+        </Variant>
+        <Variant name="SwapLeftOutlined">
+          <SwapLeftOutlined />
+        </Variant>
+        <Variant name="SwapRightOutlined">
+          <SwapRightOutlined />
+        </Variant>
+        <Variant name="ArrowUpOutlined">
+          <ArrowUpOutlined />
+        </Variant>
+        <Variant name="ArrowDownOutlined">
+          <ArrowDownOutlined />
+        </Variant>
+        <Variant name="ArrowLeftOutlined">
+          <ArrowLeftOutlined />
+        </Variant>
+        <Variant name="ArrowRightOutlined">
+          <ArrowRightOutlined />
+        </Variant>
+        <Variant name="PlayCircleOutlined">
+          <PlayCircleOutlined />
+        </Variant>
+        <Variant name="UpSquareOutlined">
+          <UpSquareOutlined />
+        </Variant>
+        <Variant name="DownSquareOutlined">
+          <DownSquareOutlined />
+        </Variant>
+        <Variant name="LeftSquareOutlined">
+          <LeftSquareOutlined />
+        </Variant>
+        <Variant name="RightSquareOutlined">
+          <RightSquareOutlined />
+        </Variant>
+        <Variant name="LoginOutlined">
+          <LoginOutlined />
+        </Variant>
+        <Variant name="LogoutOutlined">
+          <LogoutOutlined />
+        </Variant>
+        <Variant name="MenuFoldOutlined">
+          <MenuFoldOutlined />
+        </Variant>
+        <Variant name="MenuUnfoldOutlined">
+          <MenuUnfoldOutlined />
+        </Variant>
+        <Variant name="BorderBottomOutlined">
+          <BorderBottomOutlined />
+        </Variant>
+        <Variant name="BorderHorizontalOutlined">
+          <BorderHorizontalOutlined />
+        </Variant>
+        <Variant name="BorderInnerOutlined">
+          <BorderInnerOutlined />
+        </Variant>
+        <Variant name="BorderOuterOutlined">
+          <BorderOuterOutlined />
+        </Variant>
+        <Variant name="BorderLeftOutlined">
+          <BorderLeftOutlined />
+        </Variant>
+        <Variant name="BorderRightOutlined">
+          <BorderRightOutlined />
+        </Variant>
+        <Variant name="BorderTopOutlined">
+          <BorderTopOutlined />
+        </Variant>
+        <Variant name="BorderVerticleOutlined">
+          <BorderVerticleOutlined />
+        </Variant>
+        <Variant name="PicCenterOutlined">
+          <PicCenterOutlined />
+        </Variant>
+        <Variant name="PicLeftOutlined">
+          <PicLeftOutlined />
+        </Variant>
+        <Variant name="PicRightOutlined">
+          <PicRightOutlined />
+        </Variant>
+        <Variant name="RadiusBottomleftOutlined">
+          <RadiusBottomleftOutlined />
+        </Variant>
+        <Variant name="RadiusBottomrightOutlined">
+          <RadiusBottomrightOutlined />
+        </Variant>
+        <Variant name="RadiusUpleftOutlined">
+          <RadiusUpleftOutlined />
+        </Variant>
+        <Variant name="RadiusUprightOutlined">
+          <RadiusUprightOutlined />
+        </Variant>
+        <Variant name="FullscreenOutlined">
+          <FullscreenOutlined />
+        </Variant>
+        <Variant name="FullscreenExitOutlined">
+          <FullscreenExitOutlined />
+        </Variant>
+        <Variant name="QuestionOutlined">
+          <QuestionOutlined />
+        </Variant>
+        <Variant name="QuestionCircleOutlined">
+          <QuestionCircleOutlined />
+        </Variant>
+        <Variant name="PlusOutlined">
+          <PlusOutlined />
+        </Variant>
+        <Variant name="PlusCircleOutlined">
+          <PlusCircleOutlined />
+        </Variant>
+        <Variant name="PauseOutlined">
+          <PauseOutlined />
+        </Variant>
+        <Variant name="PauseCircleOutlined">
+          <PauseCircleOutlined />
+        </Variant>
+        <Variant name="MinusOutlined">
+          <MinusOutlined />
+        </Variant>
+        <Variant name="MinusCircleOutlined">
+          <MinusCircleOutlined />
+        </Variant>
+        <Variant name="PlusSquareOutlined">
+          <PlusSquareOutlined />
+        </Variant>
+        <Variant name="MinusSquareOutlined">
+          <MinusSquareOutlined />
+        </Variant>
+        <Variant name="InfoOutlined">
+          <InfoOutlined />
+        </Variant>
+        <Variant name="InfoCircleOutlined">
+          <InfoCircleOutlined />
+        </Variant>
+        <Variant name="ExclamationOutlined">
+          <ExclamationOutlined />
+        </Variant>
+        <Variant name="ExclamationCircleOutlined">
+          <ExclamationCircleOutlined />
+        </Variant>
+        <Variant name="CloseOutlined">
+          <CloseOutlined />
+        </Variant>
+        <Variant name="CloseCircleOutlined">
+          <CloseCircleOutlined />
+        </Variant>
+        <Variant name="CloseSquareOutlined">
+          <CloseSquareOutlined />
+        </Variant>
+        <Variant name="CheckOutlined">
+          <CheckOutlined />
+        </Variant>
+        <Variant name="CheckCircleOutlined">
+          <CheckCircleOutlined />
+        </Variant>
+        <Variant name="CheckSquareOutlined">
+          <CheckSquareOutlined />
+        </Variant>
+        <Variant name="ClockCircleOutlined">
+          <ClockCircleOutlined />
+        </Variant>
+        <Variant name="WarningOutlined">
+          <WarningOutlined />
+        </Variant>
+        <Variant name="IssuesCloseOutlined">
+          <IssuesCloseOutlined />
+        </Variant>
+        <Variant name="StopOutlined">
+          <StopOutlined />
+        </Variant>
+        <Variant name="EditOutlined">
+          <EditOutlined />
+        </Variant>
+        <Variant name="FormOutlined">
+          <FormOutlined />
+        </Variant>
+        <Variant name="CopyOutlined">
+          <CopyOutlined />
+        </Variant>
+        <Variant name="ScissorOutlined">
+          <ScissorOutlined />
+        </Variant>
+        <Variant name="DeleteOutlined">
+          <DeleteOutlined />
+        </Variant>
+        <Variant name="SnippetsOutlined">
+          <SnippetsOutlined />
+        </Variant>
+        <Variant name="DiffOutlined">
+          <DiffOutlined />
+        </Variant>
+        <Variant name="HighlightOutlined">
+          <HighlightOutlined />
+        </Variant>
+        <Variant name="AlignCenterOutlined">
+          <AlignCenterOutlined />
+        </Variant>
+        <Variant name="AlignLeftOutlined">
+          <AlignLeftOutlined />
+        </Variant>
+        <Variant name="AlignRightOutlined">
+          <AlignRightOutlined />
+        </Variant>
+        <Variant name="BgColorsOutlined">
+          <BgColorsOutlined />
+        </Variant>
+        <Variant name="BoldOutlined">
+          <BoldOutlined />
+        </Variant>
+        <Variant name="ItalicOutlined">
+          <ItalicOutlined />
+        </Variant>
+        <Variant name="UnderlineOutlined">
+          <UnderlineOutlined />
+        </Variant>
+        <Variant name="StrikethroughOutlined">
+          <StrikethroughOutlined />
+        </Variant>
+        <Variant name="RedoOutlined">
+          <RedoOutlined />
+        </Variant>
+        <Variant name="UndoOutlined">
+          <UndoOutlined />
+        </Variant>
+        <Variant name="ZoomInOutlined">
+          <ZoomInOutlined />
+        </Variant>
+        <Variant name="ZoomOutOutlined">
+          <ZoomOutOutlined />
+        </Variant>
+        <Variant name="FontColorsOutlined">
+          <FontColorsOutlined />
+        </Variant>
+        <Variant name="FontColorsOutlined">
+          <FontSizeOutlined />
+        </Variant>
+        <Variant name="LineHeightOutlined">
+          <LineHeightOutlined />
+        </Variant>
+        <Variant name="DashOutlined">
+          <DashOutlined />
+        </Variant>
+        <Variant name="SmallDashOutlined">
+          <SmallDashOutlined />
+        </Variant>
+        <Variant name="SortAscendingOutlined">
+          <SortAscendingOutlined />
+        </Variant>
+        <Variant name="SortDescendingOutlined">
+          <SortDescendingOutlined />
+        </Variant>
+        <Variant name="DragOutlined">
+          <DragOutlined />
+        </Variant>
+        <Variant name="OrderedListOutlined">
+          <OrderedListOutlined />
+        </Variant>
+        <Variant name="UnorderedListOutlined">
+          <UnorderedListOutlined />
+        </Variant>
+        <Variant name="RadiusSettingOutlined">
+          <RadiusSettingOutlined />
+        </Variant>
+        <Variant name="ColumnWidthOutlined">
+          <ColumnWidthOutlined />
+        </Variant>
+        <Variant name="ColumnHeightOutlined">
+          <ColumnHeightOutlined />
+        </Variant>
+        <Variant name="AreaChartOutlined">
+          <AreaChartOutlined />
+        </Variant>
+        <Variant name="PieChartOutlined">
+          <PieChartOutlined />
+        </Variant>
+        <Variant name="BarChartOutlined">
+          <BarChartOutlined />
+        </Variant>
+        <Variant name="DotChartOutlined">
+          <DotChartOutlined />
+        </Variant>
+        <Variant name="LineChartOutlined">
+          <LineChartOutlined />
+        </Variant>
+        <Variant name="RadarChartOutlined">
+          <RadarChartOutlined />
+        </Variant>
+        <Variant name="HeatMapOutlined">
+          <HeatMapOutlined />
+        </Variant>
+        <Variant name="FallOutlined">
+          <FallOutlined />
+        </Variant>
+        <Variant name="RiseOutlined">
+          <RiseOutlined />
+        </Variant>
+        <Variant name="StockOutlined">
+          <StockOutlined />
+        </Variant>
+        <Variant name="BoxPlotOutlined">
+          <BoxPlotOutlined />
+        </Variant>
+        <Variant name="FundOutlined">
+          <FundOutlined />
+        </Variant>
+        <Variant name="SlidersOutlined">
+          <SlidersOutlined />
+        </Variant>
+        <Variant name="AndroidOutlined">
+          <AndroidOutlined />
+        </Variant>
+        <Variant name="AppleOutlined">
+          <AppleOutlined />
+        </Variant>
+        <Variant name="WindowsOutlined">
+          <WindowsOutlined />
+        </Variant>
+        <Variant name="IeOutlined">
+          <IeOutlined />
+        </Variant>
+        <Variant name="ChromeOutlined">
+          <ChromeOutlined />
+        </Variant>
+        <Variant name="GithubOutlined">
+          <GithubOutlined />
+        </Variant>
+        <Variant name="AliwangwangOutlined">
+          <AliwangwangOutlined />
+        </Variant>
+        <Variant name="DingdingOutlined">
+          <DingdingOutlined />
+        </Variant>
+        <Variant name="WeiboSquareOutlined">
+          <WeiboSquareOutlined />
+        </Variant>
+        <Variant name="WeiboCircleOutlined">
+          <WeiboCircleOutlined />
+        </Variant>
+        <Variant name="TaobaoCircleOutlined">
+          <TaobaoCircleOutlined />
+        </Variant>
+        <Variant name="Html5Outlined">
+          <Html5Outlined />
+        </Variant>
+        <Variant name="WeiboOutlined">
+          <WeiboOutlined />
+        </Variant>
+        <Variant name="TwitterOutlined">
+          <TwitterOutlined />
+        </Variant>
+        <Variant name="WechatOutlined">
+          <WechatOutlined />
+        </Variant>
+        <Variant name="YoutubeOutlined">
+          <YoutubeOutlined />
+        </Variant>
+        <Variant name="AlipayCircleOutlined">
+          <AlipayCircleOutlined />
+        </Variant>
+        <Variant name="AlipayCircleOutlined">
+          <TaobaoOutlined />
+        </Variant>
+        <Variant name="SkypeOutlined">
+          <SkypeOutlined />
+        </Variant>
+        <Variant name="QqOutlined">
+          <QqOutlined />
+        </Variant>
+        <Variant name="MediumWorkmarkOutlined">
+          <MediumWorkmarkOutlined />
+        </Variant>
+        <Variant name="GitlabOutlined">
+          <GitlabOutlined />
+        </Variant>
+        <Variant name="MediumOutlined">
+          <MediumOutlined />
+        </Variant>
+        <Variant name="LinkedinOutlined">
+          <LinkedinOutlined />
+        </Variant>
+        <Variant name="GooglePlusOutlined">
+          <GooglePlusOutlined />
+        </Variant>
+        <Variant name="DropboxOutlined">
+          <DropboxOutlined />
+        </Variant>
+        <Variant name="FacebookOutlined">
+          <FacebookOutlined />
+        </Variant>
+        <Variant name="CodepenOutlined">
+          <CodepenOutlined />
+        </Variant>
+        <Variant name="CodeSandboxOutlined">
+          <CodeSandboxOutlined />
+        </Variant>
+        <Variant name="AmazonOutlined">
+          <AmazonOutlined />
+        </Variant>
+        <Variant name="GoogleOutlined">
+          <GoogleOutlined />
+        </Variant>
+        <Variant name="CodepenCircleOutlined">
+          <CodepenCircleOutlined />
+        </Variant>
+        <Variant name="AlipayOutlined">
+          <AlipayOutlined />
+        </Variant>
+        <Variant name="AntDesignOutlined">
+          <AntDesignOutlined />
+        </Variant>
+        <Variant name="AntCloudOutlined">
+          <AntCloudOutlined />
+        </Variant>
+        <Variant name="AliyunOutlined">
+          <AliyunOutlined />
+        </Variant>
+        <Variant name="ZhihuOutlined">
+          <ZhihuOutlined />
+        </Variant>
+        <Variant name="SlackOutlined">
+          <SlackOutlined />
+        </Variant>
+        <Variant name="SlackSquareOutlined">
+          <SlackSquareOutlined />
+        </Variant>
+        <Variant name="BehanceOutlined">
+          <BehanceOutlined />
+        </Variant>
+        <Variant name="BehanceSquareOutlined">
+          <BehanceSquareOutlined />
+        </Variant>
+        <Variant name="DribbbleOutlined">
+          <DribbbleOutlined />
+        </Variant>
+        <Variant name="DribbbleSquareOutlined">
+          <DribbbleSquareOutlined />
+        </Variant>
+        <Variant name="InstagramOutlined">
+          <InstagramOutlined />
+        </Variant>
+        <Variant name="YuqueOutlined">
+          <YuqueOutlined />
+        </Variant>
+        <Variant name="AlibabaOutlined">
+          <AlibabaOutlined />
+        </Variant>
+        <Variant name="YahooOutlined">
+          <YahooOutlined />
+        </Variant>
+        <Variant name="RedditOutlined">
+          <RedditOutlined />
+        </Variant>
+        <Variant name="SketchOutlined">
+          <SketchOutlined />
+        </Variant>
+        <Variant name="AccountBookOutlined">
+          <AccountBookOutlined />
+        </Variant>
+        <Variant name="AimOutlined">
+          <AimOutlined />
+        </Variant>
+        <Variant name="AlertOutlined">
+          <AlertOutlined />
+        </Variant>
+        <Variant name="ApartmentOutlined">
+          <ApartmentOutlined />
+        </Variant>
+        <Variant name="ApiOutlined">
+          <ApiOutlined />
+        </Variant>
+        <Variant name="AppstoreAddOutlined">
+          <AppstoreAddOutlined />
+        </Variant>
+        <Variant name="AppstoreOutlined">
+          <AppstoreOutlined />
+        </Variant>
+        <Variant name="AudioOutlined">
+          <AudioOutlined />
+        </Variant>
+        <Variant name="AudioMutedOutlined">
+          <AudioMutedOutlined />
+        </Variant>
+        <Variant name="AuditOutlined">
+          <AuditOutlined />
+        </Variant>
+        <Variant name="BankOutlined">
+          <BankOutlined />
+        </Variant>
+        <Variant name="BarcodeOutlined">
+          <BarcodeOutlined />
+        </Variant>
+        <Variant name="BarsOutlined">
+          <BarsOutlined />
+        </Variant>
+        <Variant name="BellOutlined">
+          <BellOutlined />
+        </Variant>
+        <Variant name="BellOutlined">
+          <BlockOutlined />
+        </Variant>
+        <Variant name="BookOutlined">
+          <BookOutlined />
+        </Variant>
+        <Variant name="BorderOutlined">
+          <BorderOutlined />
+        </Variant>
+        <Variant name="BorderlessTableOutlined">
+          <BorderlessTableOutlined />
+        </Variant>
+        <Variant name="BranchesOutlined">
+          <BranchesOutlined />
+        </Variant>
+        <Variant name="BugOutlined">
+          <BugOutlined />
+        </Variant>
+        <Variant name="BuildOutlined">
+          <BuildOutlined />
+        </Variant>
+        <Variant name="BulbOutlined">
+          <BulbOutlined />
+        </Variant>
+        <Variant name="CalculatorOutlined">
+          <CalculatorOutlined />
+        </Variant>
+        <Variant name="CalendarOutlined">
+          <CalendarOutlined />
+        </Variant>
+        <Variant name="CameraOutlined">
+          <CameraOutlined />
+        </Variant>
+        <Variant name="CarOutlined">
+          <CarOutlined />
+        </Variant>
+        <Variant name="CarryOutOutlined">
+          <CarryOutOutlined />
+        </Variant>
+        <Variant name="CiCircleOutlined">
+          <CiCircleOutlined />
+        </Variant>
+        <Variant name="CiOutlined">
+          <CiOutlined />
+        </Variant>
+        <Variant name="ClearOutlined">
+          <ClearOutlined />
+        </Variant>
+        <Variant name="CloudDownloadOutlined">
+          <CloudDownloadOutlined />
+        </Variant>
+        <Variant name="CloudOutlined">
+          <CloudOutlined />
+        </Variant>
+        <Variant name="CloudServerOutlined">
+          <CloudServerOutlined />
+        </Variant>
+        <Variant name="CloudSyncOutlined">
+          <CloudSyncOutlined />
+        </Variant>
+        <Variant name="CloudUploadOutlined">
+          <CloudUploadOutlined />
+        </Variant>
+        <Variant name="CloudUploadOutlined">
+          <ClusterOutlined />
+        </Variant>
+        <Variant name="CodeOutlined">
+          <CodeOutlined />
+        </Variant>
+        <Variant name="CoffeeOutlined">
+          <CoffeeOutlined />
+        </Variant>
+        <Variant name="CommentOutlined">
+          <CommentOutlined />
+        </Variant>
+        <Variant name="CompassOutlined">
+          <CompassOutlined />
+        </Variant>
+        <Variant name="CompressOutlined">
+          <CompressOutlined />
+        </Variant>
+        <Variant name="ConsoleSqlOutlined">
+          <ConsoleSqlOutlined />
+        </Variant>
+        <Variant name="ContactsOutlined">
+          <ContactsOutlined />
+        </Variant>
+        <Variant name="ContainerOutlined">
+          <ContainerOutlined />
+        </Variant>
+        <Variant name="ContainerOutlined">
+          <ControlOutlined />
+        </Variant>
+        <Variant name="CopyrightOutlined">
+          <CopyrightOutlined />
+        </Variant>
+        <Variant name="CreditCardOutlined">
+          <CreditCardOutlined />
+        </Variant>
+        <Variant name="CrownOutlined">
+          <CrownOutlined />
+        </Variant>
+        <Variant name="CustomerServiceOutlined">
+          <CustomerServiceOutlined />
+        </Variant>
+        <Variant name="DashboardOutlined">
+          <DashboardOutlined />
+        </Variant>
+        <Variant name="DatabaseOutlined">
+          <DatabaseOutlined />
+        </Variant>
+        <Variant name="DeleteColumnOutlined">
+          <DeleteColumnOutlined />
+        </Variant>
+        <Variant name="DeleteRowOutlined">
+          <DeleteRowOutlined />
+        </Variant>
+        <Variant name="DeliveredProcedureOutlined">
+          <DeliveredProcedureOutlined />
+        </Variant>
+        <Variant name="DeploymentUnitOutlined">
+          <DeploymentUnitOutlined />
+        </Variant>
+        <Variant name="DesktopOutlined">
+          <DesktopOutlined />
+        </Variant>
+        <Variant name="DingtalkOutlined">
+          <DingtalkOutlined />
+        </Variant>
+        <Variant name="DisconnectOutlined">
+          <DisconnectOutlined />
+        </Variant>
+        <Variant name="DislikeOutlined">
+          <DislikeOutlined />
+        </Variant>
+        <Variant name="DollarCircleOutlined">
+          <DollarCircleOutlined />
+        </Variant>
+        <Variant name="DollarOutlined">
+          <DollarOutlined />
+        </Variant>
+        <Variant name="DownloadOutlined">
+          <DownloadOutlined />
+        </Variant>
+        <Variant name="EllipsisOutlined">
+          <EllipsisOutlined />
+        </Variant>
+        <Variant name="EnvironmentOutlined">
+          <EnvironmentOutlined />
+        </Variant>
+        <Variant name="EuroCircleOutlined">
+          <EuroCircleOutlined />
+        </Variant>
+        <Variant name="EuroOutlined">
+          <EuroOutlined />
+        </Variant>
+        <Variant name="ExceptionOutlined">
+          <ExceptionOutlined />
+        </Variant>
+        <Variant name="ExpandAltOutlined">
+          <ExpandAltOutlined />
+        </Variant>
+        <Variant name="ExpandOutlined">
+          <ExpandOutlined />
+        </Variant>
+        <Variant name="ExperimentOutlined">
+          <ExperimentOutlined />
+        </Variant>
+        <Variant name="ExportOutlined">
+          <ExportOutlined />
+        </Variant>
+        <Variant name="EyeOutlined">
+          <EyeOutlined />
+        </Variant>
+        <Variant name="EyeInvisibleOutlined">
+          <EyeInvisibleOutlined />
+        </Variant>
+        <Variant name="FieldBinaryOutlined">
+          <FieldBinaryOutlined />
+        </Variant>
+        <Variant name="FieldNumberOutlined">
+          <FieldNumberOutlined />
+        </Variant>
+        <Variant name="FieldStringOutlined">
+          <FieldStringOutlined />
+        </Variant>
+        <Variant name="FieldTimeOutlined">
+          <FieldTimeOutlined />
+        </Variant>
+        <Variant name="FileAddOutlined">
+          <FileAddOutlined />
+        </Variant>
+        <Variant name="FileDoneOutlined">
+          <FileDoneOutlined />
+        </Variant>
+        <Variant name="FileExcelOutlined">
+          <FileExcelOutlined />
+        </Variant>
+        <Variant name="FileExclamationOutlined">
+          <FileExclamationOutlined />
+        </Variant>
+        <Variant name="FileOutlined">
+          <FileOutlined />
+        </Variant>
+        <Variant name="FileGifOutlined">
+          <FileGifOutlined />
+        </Variant>
+        <Variant name="FileImageOutlined">
+          <FileImageOutlined />
+        </Variant>
+        <Variant name="FileJpgOutlined">
+          <FileJpgOutlined />
+        </Variant>
+        <Variant name="FileMarkdownOutlined">
+          <FileMarkdownOutlined />
+        </Variant>
+        <Variant name="FilePdfOutlined">
+          <FilePdfOutlined />
+        </Variant>
+        <Variant name="FilePptOutlined">
+          <FilePptOutlined />
+        </Variant>
+        <Variant name="FileProtectOutlined">
+          <FileProtectOutlined />
+        </Variant>
+        <Variant name="FileSearchOutlined">
+          <FileSearchOutlined />
+        </Variant>
+        <Variant name="FileSyncOutlined">
+          <FileSyncOutlined />
+        </Variant>
+        <Variant name="FileTextOutlined">
+          <FileTextOutlined />
+        </Variant>
+        <Variant name="FileUnknownOutlined">
+          <FileUnknownOutlined />
+        </Variant>
+        <Variant name="FileWordOutlined">
+          <FileWordOutlined />
+        </Variant>
+        <Variant name="FileZipOutlined">
+          <FileZipOutlined />
+        </Variant>
+        <Variant name="FilterOutlined">
+          <FilterOutlined />
+        </Variant>
+        <Variant name="FireOutlined">
+          <FireOutlined />
+        </Variant>
+        <Variant name="FlagOutlined">
+          <FlagOutlined />
+        </Variant>
+        <Variant name="FolderAddOutlined">
+          <FolderAddOutlined />
+        </Variant>
+        <Variant name="FolderAddOutlined">
+          <FolderOutlined />
+        </Variant>
+        <Variant name="FolderOpenOutlined">
+          <FolderOpenOutlined />
+        </Variant>
+        <Variant name="FolderViewOutlined">
+          <FolderViewOutlined />
+        </Variant>
+        <Variant name="ForkOutlined">
+          <ForkOutlined />
+        </Variant>
+        <Variant name="FormatPainterOutlined">
+          <FormatPainterOutlined />
+        </Variant>
+        <Variant name="FrownOutlined">
+          <FrownOutlined />
+        </Variant>
+        <Variant name="FunctionOutlined">
+          <FunctionOutlined />
+        </Variant>
+        <Variant name="FundProjectionScreenOutlined">
+          <FundProjectionScreenOutlined />
+        </Variant>
+        <Variant name="FundViewOutlined">
+          <FundViewOutlined />
+        </Variant>
+        <Variant name="FunnelPlotOutlined">
+          <FunnelPlotOutlined />
+        </Variant>
+        <Variant name="GatewayOutlined">
+          <GatewayOutlined />
+        </Variant>
+        <Variant name="GifOutlined">
+          <GifOutlined />
+        </Variant>
+        <Variant name="GiftOutlined">
+          <GiftOutlined />
+        </Variant>
+        <Variant name="GlobalOutlined">
+          <GlobalOutlined />
+        </Variant>
+        <Variant name="GoldOutlined">
+          <GoldOutlined />
+        </Variant>
+        <Variant name="GroupOutlined">
+          <GroupOutlined />
+        </Variant>
+        <Variant name="HddOutlined">
+          <HddOutlined />
+        </Variant>
+        <Variant name="HeartOutlined">
+          <HeartOutlined />
+        </Variant>
+        <Variant name="HistoryOutlined">
+          <HistoryOutlined />
+        </Variant>
+        <Variant name="HolderOutlined">
+          <HolderOutlined />
+        </Variant>
+        <Variant name="HomeOutlined">
+          <HomeOutlined />
+        </Variant>
+        <Variant name="HourglassOutlined">
+          <HourglassOutlined />
+        </Variant>
+        <Variant name="IdcardOutlined">
+          <IdcardOutlined />
+        </Variant>
+        <Variant name="ImportOutlined">
+          <ImportOutlined />
+        </Variant>
+        <Variant name="InboxOutlined">
+          <InboxOutlined />
+        </Variant>
+        <Variant name="InsertRowAboveOutlined">
+          <InsertRowAboveOutlined />
+        </Variant>
+        <Variant name="InsertRowBelowOutlined">
+          <InsertRowBelowOutlined />
+        </Variant>
+        <Variant name="InsertRowLeftOutlined">
+          <InsertRowLeftOutlined />
+        </Variant>
+        <Variant name="InsertRowRightOutlined">
+          <InsertRowRightOutlined />
+        </Variant>
+        <Variant name="InsuranceOutlined">
+          <InsuranceOutlined />
+        </Variant>
+        <Variant name="InteractionOutlined">
+          <InteractionOutlined />
+        </Variant>
+        <Variant name="KeyOutlined">
+          <KeyOutlined />
+        </Variant>
+        <Variant name="LaptopOutlined">
+          <LaptopOutlined />
+        </Variant>
+        <Variant name="LayoutOutlined">
+          <LayoutOutlined />
+        </Variant>
+        <Variant name="LikeOutlined">
+          <LikeOutlined />
+        </Variant>
+        <Variant name="LineOutlined">
+          <LineOutlined />
+        </Variant>
+        <Variant name="LinkOutlined">
+          <LinkOutlined />
+        </Variant>
+        <Variant name="Loading3QuartersOutlined">
+          <Loading3QuartersOutlined />
+        </Variant>
+        <Variant name="LoadingOutlined">
+          <LoadingOutlined />
+        </Variant>
+        <Variant name="LockOutlined">
+          <LockOutlined />
+        </Variant>
+        <Variant name="MacCommandOutlined">
+          <MacCommandOutlined />
+        </Variant>
+        <Variant name="MailOutlined">
+          <MailOutlined />
+        </Variant>
+        <Variant name="ManOutlined">
+          <ManOutlined />
+        </Variant>
+        <Variant name="MedicineBoxOutlined">
+          <MedicineBoxOutlined />
+        </Variant>
+        <Variant name="MehOutlined">
+          <MehOutlined />
+        </Variant>
+        <Variant name="MenuOutlined">
+          <MenuOutlined />
+        </Variant>
+        <Variant name="MergeCellsOutlined">
+          <MergeCellsOutlined />
+        </Variant>
+        <Variant name="MessageOutlined">
+          <MessageOutlined />
+        </Variant>
+        <Variant name="MobileOutlined">
+          <MobileOutlined />
+        </Variant>
+        <Variant name="MoneyCollectOutlined">
+          <MoneyCollectOutlined />
+        </Variant>
+        <Variant name="MonitorOutlined">
+          <MonitorOutlined />
+        </Variant>
+        <Variant name="MoreOutlined">
+          <MoreOutlined />
+        </Variant>
+        <Variant name="NodeCollapseOutlined">
+          <NodeCollapseOutlined />
+        </Variant>
+        <Variant name="NodeExpandOutlined">
+          <NodeExpandOutlined />
+        </Variant>
+        <Variant name="NodeIndexOutlined">
+          <NodeIndexOutlined />
+        </Variant>
+        <Variant name="NotificationOutlined">
+          <NotificationOutlined />
+        </Variant>
+        <Variant name="NumberOutlined">
+          <NumberOutlined />
+        </Variant>
+        <Variant name="OneToOneOutlined">
+          <OneToOneOutlined />
+        </Variant>
+        <Variant name="PartitionOutlined">
+          <PartitionOutlined />
+        </Variant>
+        <Variant name="PaperClipOutlined">
+          <PaperClipOutlined />
+        </Variant>
+        <Variant name="PayCircleOutlined">
+          <PayCircleOutlined />
+        </Variant>
+        <Variant name="PercentageOutlined">
+          <PercentageOutlined />
+        </Variant>
+        <Variant name="PhoneOutlined">
+          <PhoneOutlined />
+        </Variant>
+        <Variant name="PictureOutlined">
+          <PictureOutlined />
+        </Variant>
+        <Variant name="PlaySquareOutlined">
+          <PlaySquareOutlined />
+        </Variant>
+        <Variant name="PoundCircleOutlined">
+          <PoundCircleOutlined />
+        </Variant>
+        <Variant name="PoweroffOutlined">
+          <PoweroffOutlined />
+        </Variant>
+        <Variant name="PrinterOutlined">
+          <PrinterOutlined />
+        </Variant>
+        <Variant name="ProfileOutlined">
+          <ProfileOutlined />
+        </Variant>
+        <Variant name="ProjectOutlined">
+          <ProjectOutlined />
+        </Variant>
+        <Variant name="PropertySafetyOutlined">
+          <PropertySafetyOutlined />
+        </Variant>
+        <Variant name="PullRequestOutlined">
+          <PullRequestOutlined />
+        </Variant>
+        <Variant name="PushpinOutlined">
+          <PushpinOutlined />
+        </Variant>
+        <Variant name="QrcodeOutlined">
+          <QrcodeOutlined />
+        </Variant>
+        <Variant name="ReadOutlined">
+          <ReadOutlined />
+        </Variant>
+        <Variant name="ReconciliationOutlined">
+          <ReconciliationOutlined />
+        </Variant>
+        <Variant name="RedEnvelopeOutlined">
+          <RedEnvelopeOutlined />
+        </Variant>
+        <Variant name="ReloadOutlined">
+          <ReloadOutlined />
+        </Variant>
+        <Variant name="RestOutlined">
+          <RestOutlined />
+        </Variant>
+        <Variant name="RobotOutlined">
+          <RobotOutlined />
+        </Variant>
+        <Variant name="RocketOutlined">
+          <RocketOutlined />
+        </Variant>
+        <Variant name="RotateLeftOutlined">
+          <RotateLeftOutlined />
+        </Variant>
+        <Variant name="RotateRightOutlined">
+          <RotateRightOutlined />
+        </Variant>
+        <Variant name="SafetyCertificateOutlined">
+          <SafetyCertificateOutlined />
+        </Variant>
+        <Variant name="SafetyOutlined">
+          <SafetyOutlined />
+        </Variant>
+        <Variant name="SaveOutlined">
+          <SaveOutlined />
+        </Variant>
+        <Variant name="ScanOutlined">
+          <ScanOutlined />
+        </Variant>
+        <Variant name="ScheduleOutlined">
+          <ScheduleOutlined />
+        </Variant>
+        <Variant name="SearchOutlined">
+          <SearchOutlined />
+        </Variant>
+        <Variant name="SecurityScanOutlined">
+          <SecurityScanOutlined />
+        </Variant>
+        <Variant name="SelectOutlined">
+          <SelectOutlined />
+        </Variant>
+        <Variant name="SendOutlined">
+          <SendOutlined />
+        </Variant>
+        <Variant name="SettingOutlined">
+          <SettingOutlined />
+        </Variant>
+        <Variant name="ShakeOutlined">
+          <ShakeOutlined />
+        </Variant>
+        <Variant name="ShareAltOutlined">
+          <ShareAltOutlined />
+        </Variant>
+        <Variant name="ShopOutlined">
+          <ShopOutlined />
+        </Variant>
+        <Variant name="ShoppingCartOutlined">
+          <ShoppingCartOutlined />
+        </Variant>
+        <Variant name="ShoppingOutlined">
+          <ShoppingOutlined />
+        </Variant>
+        <Variant name="SisternodeOutlined">
+          <SisternodeOutlined />
+        </Variant>
+        <Variant name="SkinOutlined">
+          <SkinOutlined />
+        </Variant>
+        <Variant name="SmileOutlined">
+          <SmileOutlined />
+        </Variant>
+        <Variant name="SolutionOutlined">
+          <SolutionOutlined />
+        </Variant>
+        <Variant name="SoundOutlined">
+          <SoundOutlined />
+        </Variant>
+        <Variant name="SplitCellsOutlined">
+          <SplitCellsOutlined />
+        </Variant>
+        <Variant name="StarOutlined">
+          <StarOutlined />
+        </Variant>
+        <Variant name="SubnodeOutlined">
+          <SubnodeOutlined />
+        </Variant>
+        <Variant name="SwitcherOutlined">
+          <SwitcherOutlined />
+        </Variant>
+        <Variant name="SyncOutlined">
+          <SyncOutlined />
+        </Variant>
+        <Variant name="TableOutlined">
+          <TableOutlined />
+        </Variant>
+        <Variant name="TableOutlined">
+          <TabletOutlined />
+        </Variant>
+        <Variant name="TagOutlined">
+          <TagOutlined />
+        </Variant>
+        <Variant name="TagsOutlined">
+          <TagsOutlined />
+        </Variant>
+        <Variant name="TeamOutlined">
+          <TeamOutlined />
+        </Variant>
+        <Variant name="ThunderboltOutlined">
+          <ThunderboltOutlined />
+        </Variant>
+        <Variant name="ToTopOutlined">
+          <ToTopOutlined />
+        </Variant>
+        <Variant name="ToolOutlined">
+          <ToolOutlined />
+        </Variant>
+        <Variant name="TrademarkCircleOutlined">
+          <TrademarkCircleOutlined />
+        </Variant>
+        <Variant name="TrademarkOutlined">
+          <TrademarkOutlined />
+        </Variant>
+        <Variant name="TransactionOutlined">
+          <TransactionOutlined />
+        </Variant>
+        <Variant name="TranslationOutlined">
+          <TranslationOutlined />
+        </Variant>
+        <Variant name="TranslationOutlined">
+          <TrophyOutlined />
+        </Variant>
+        <Variant name="UngroupOutlined">
+          <UngroupOutlined />
+        </Variant>
+        <Variant name="UnlockOutlined">
+          <UnlockOutlined />
+        </Variant>
+        <Variant name="UploadOutlined">
+          <UploadOutlined />
+        </Variant>
+        <Variant name="UsbOutlined">
+          <UsbOutlined />
+        </Variant>
+        <Variant name="UserAddOutlined">
+          <UserAddOutlined />
+        </Variant>
+        <Variant name="UserDeleteOutlined">
+          <UserDeleteOutlined />
+        </Variant>
+        <Variant name="UserOutlined">
+          <UserOutlined />
+        </Variant>
+        <Variant name="UserSwitchOutlined">
+          <UserSwitchOutlined />
+        </Variant>
+        <Variant name="UsergroupAddOutlined">
+          <UsergroupAddOutlined />
+        </Variant>
+        <Variant name="UsergroupDeleteOutlined">
+          <UsergroupDeleteOutlined />
+        </Variant>
+        <Variant name="VerifiedOutlined">
+          <VerifiedOutlined />
+        </Variant>
+        <Variant name="VideoCameraAddOutlined">
+          <VideoCameraAddOutlined />
+        </Variant>
+        <Variant name="VideoCameraOutlined">
+          <VideoCameraOutlined />
+        </Variant>
+        <Variant name="WalletOutlined">
+          <WalletOutlined />
+        </Variant>
+        <Variant name="WhatsAppOutlined">
+          <WhatsAppOutlined />
+        </Variant>
+        <Variant name="WifiOutlined">
+          <WifiOutlined />
+        </Variant>
+        <Variant name="WomanOutlined">
+          <WomanOutlined />
+        </Variant>
+      </Component>
+      <Component name="Filled">
+        <Variant name="StepBackwardFilled">
+          <StepBackwardFilled />
+        </Variant>
+        <Variant name="StepForwardFilled">
+          <StepForwardFilled />
+        </Variant>
+        <Variant name="FastBackwardFilled">
+          <FastBackwardFilled />
+        </Variant>
+        <Variant name="FastForwardFilled">
+          <FastForwardFilled />
+        </Variant>
+        <Variant name="CaretUpFilled">
+          <CaretUpFilled />
+        </Variant>
+        <Variant name="CaretDownFilled">
+          <CaretDownFilled />
+        </Variant>
+        <Variant name="CaretLeftFilled">
+          <CaretLeftFilled />
+        </Variant>
+        <Variant name="CaretRightFilled">
+          <CaretRightFilled />
+        </Variant>
+        <Variant name="UpCircleFilled">
+          <UpCircleFilled />
+        </Variant>
+        <Variant name="DownCircleFilled">
+          <DownCircleFilled />
+        </Variant>
+        <Variant name="LeftCircleFilled">
+          <LeftCircleFilled />
+        </Variant>
+        <Variant name="RightCircleFilled">
+          <RightCircleFilled />
+        </Variant>
+        <Variant name="ForwardFilled">
+          <ForwardFilled />
+        </Variant>
+        <Variant name="BackwardFilled">
+          <BackwardFilled />
+        </Variant>
+        <Variant name="PlayCircleFilled">
+          <PlayCircleFilled />
+        </Variant>
+        <Variant name="UpSquareFilled">
+          <UpSquareFilled />
+        </Variant>
+        <Variant name="DownSquareFilled">
+          <DownSquareFilled />
+        </Variant>
+        <Variant name="LeftSquareFilled">
+          <LeftSquareFilled />
+        </Variant>
+        <Variant name="RightSquareFilled">
+          <RightSquareFilled />
+        </Variant>
+        <Variant name="QuestionCircleFilled">
+          <QuestionCircleFilled />
+        </Variant>
+        <Variant name="PlusCircleFilled">
+          <PlusCircleFilled />
+        </Variant>
+        <Variant name="PauseCircleFilled">
+          <PauseCircleFilled />
+        </Variant>
+        <Variant name="MinusCircleFilled">
+          <MinusCircleFilled />
+        </Variant>
+        <Variant name="PlusSquareFilled">
+          <PlusSquareFilled />
+        </Variant>
+        <Variant name="MinusSquareFilled">
+          <MinusSquareFilled />
+        </Variant>
+        <Variant name="InfoCircleFilled">
+          <InfoCircleFilled />
+        </Variant>
+        <Variant name="ExclamationCircleFilled">
+          <ExclamationCircleFilled />
+        </Variant>
+        <Variant name="CloseCircleFilled">
+          <CloseCircleFilled />
+        </Variant>
+        <Variant name="CloseSquareFilled">
+          <CloseSquareFilled />
+        </Variant>
+        <Variant name="CheckCircleFilled">
+          <CheckCircleFilled />
+        </Variant>
+        <Variant name="CheckSquareFilled">
+          <CheckSquareFilled />
+        </Variant>
+        <Variant name="ClockCircleFilled">
+          <ClockCircleFilled />
+        </Variant>
+        <Variant name="WarningFilled">
+          <WarningFilled />
+        </Variant>
+        <Variant name="StopFilled">
+          <StopFilled />
+        </Variant>
+        <Variant name="EditFilled">
+          <EditFilled />
+        </Variant>
+        <Variant name="CopyFilled">
+          <CopyFilled />
+        </Variant>
+        <Variant name="DeleteFilled">
+          <DeleteFilled />
+        </Variant>
+        <Variant name="SnippetsFilled">
+          <SnippetsFilled />
+        </Variant>
+        <Variant name="DiffFilled">
+          <DiffFilled />
+        </Variant>
+        <Variant name="HighlightFilled">
+          <HighlightFilled />
+        </Variant>
+        <Variant name="PieChartFilled">
+          <PieChartFilled />
+        </Variant>
+        <Variant name="BoxPlotFilled">
+          <BoxPlotFilled />
+        </Variant>
+        <Variant name="FundFilled">
+          <FundFilled />
+        </Variant>
+        <Variant name="SlidersFilled">
+          <SlidersFilled />
+        </Variant>
+        <Variant name="AndroidFilled">
+          <AndroidFilled />
+        </Variant>
+        <Variant name="AppleFilled">
+          <AppleFilled />
+        </Variant>
+        <Variant name="WindowsFilled">
+          <WindowsFilled />
+        </Variant>
+        <Variant name="ChromeFilled">
+          <ChromeFilled />
+        </Variant>
+        <Variant name="GithubFilled">
+          <GithubFilled />
+        </Variant>
+        <Variant name="AliwangwangFilled">
+          <AliwangwangFilled />
+        </Variant>
+        <Variant name="WeiboSquareFilled">
+          <WeiboSquareFilled />
+        </Variant>
+        <Variant name="WeiboCircleFilled">
+          <WeiboCircleFilled />
+        </Variant>
+        <Variant name="TaobaoCircleFilled">
+          <TaobaoCircleFilled />
+        </Variant>
+        <Variant name="Html5Filled">
+          <Html5Filled />
+        </Variant>
+        <Variant name="WechatFilled">
+          <WechatFilled />
+        </Variant>
+        <Variant name="YoutubeFilled">
+          <YoutubeFilled />
+        </Variant>
+        <Variant name="AlipayCircleFilled">
+          <AlipayCircleFilled />
+        </Variant>
+        <Variant name="SkypeFilled">
+          <SkypeFilled />
+        </Variant>
+        <Variant name="GitlabFilled">
+          <GitlabFilled />
+        </Variant>
+        <Variant name="LinkedinFilled">
+          <LinkedinFilled />
+        </Variant>
+        <Variant name="FacebookFilled">
+          <FacebookFilled />
+        </Variant>
+        <Variant name="CodeSandboxCircleFilled">
+          <CodeSandboxCircleFilled />
+        </Variant>
+        <Variant name="CodepenCircleFilled">
+          <CodepenCircleFilled />
+        </Variant>
+        <Variant name="SlackSquareFilled">
+          <SlackSquareFilled />
+        </Variant>
+        <Variant name="BehanceSquareFilled">
+          <BehanceSquareFilled />
+        </Variant>
+        <Variant name="DribbbleSquareFilled">
+          <DribbbleSquareFilled />
+        </Variant>
+        <Variant name="InstagramFilled">
+          <InstagramFilled />
+        </Variant>
+        <Variant name="YuqueFilled">
+          <YuqueFilled />
+        </Variant>
+        <Variant name="YahooFilled">
+          <YahooFilled />
+        </Variant>
+        <Variant name="AccountBookFilled">
+          <AccountBookFilled />
+        </Variant>
+        <Variant name="AlertFilled">
+          <AlertFilled />
+        </Variant>
+        <Variant name="AlipaySquareFilled">
+          <AlipaySquareFilled />
+        </Variant>
+        <Variant name="AmazonCircleFilled">
+          <AmazonCircleFilled />
+        </Variant>
+        <Variant name="ApiFilled">
+          <ApiFilled />
+        </Variant>
+        <Variant name="AppstoreFilled">
+          <AppstoreFilled />
+        </Variant>
+        <Variant name="AudioFilled">
+          <AudioFilled />
+        </Variant>
+        <Variant name="BankFilled">
+          <BankFilled />
+        </Variant>
+        <Variant name="BehanceCircleFilled">
+          <BehanceCircleFilled />
+        </Variant>
+        <Variant name="BellFilled">
+          <BellFilled />
+        </Variant>
+        <Variant name="BookFilled">
+          <BookFilled />
+        </Variant>
+        <Variant name="BugFilled">
+          <BugFilled />
+        </Variant>
+        <Variant name="BuildFilled">
+          <BuildFilled />
+        </Variant>
+        <Variant name="CalculatorFilled">
+          <CalculatorFilled />
+        </Variant>
+        <Variant name="CalendarFilled">
+          <CalendarFilled />
+        </Variant>
+        <Variant name="CameraFilled">
+          <CameraFilled />
+        </Variant>
+        <Variant name="CarFilled">
+          <CarFilled />
+        </Variant>
+        <Variant name="CarryOutFilled">
+          <CarryOutFilled />
+        </Variant>
+        <Variant name="CiCircleFilled">
+          <CiCircleFilled />
+        </Variant>
+        <Variant name="CloudFilled">
+          <CloudFilled />
+        </Variant>
+        <Variant name="CodeFilled">
+          <CodeFilled />
+        </Variant>
+        <Variant name="CodeSandboxSquareFilled">
+          <CodeSandboxSquareFilled />
+        </Variant>
+        <Variant name="CodepenSquareFilled">
+          <CodepenSquareFilled />
+        </Variant>
+        <Variant name="CompassFilled">
+          <CompassFilled />
+        </Variant>
+        <Variant name="ContactsFilled">
+          <ContactsFilled />
+        </Variant>
+        <Variant name="ContainerFilled">
+          <ContainerFilled />
+        </Variant>
+        <Variant name="ContainerFilled">
+          <ControlFilled />
+        </Variant>
+        <Variant name="CreditCardFilled">
+          <CreditCardFilled />
+        </Variant>
+        <Variant name="CrownFilled">
+          <CrownFilled />
+        </Variant>
+        <Variant name="CustomerServiceFilled">
+          <CustomerServiceFilled />
+        </Variant>
+        <Variant name="DashboardFilled">
+          <DashboardFilled />
+        </Variant>
+        <Variant name="DatabaseFilled">
+          <DatabaseFilled />
+        </Variant>
+        <Variant name="DingtalkCircleFilled">
+          <DingtalkCircleFilled />
+        </Variant>
+        <Variant name="DingtalkSquareFilled">
+          <DingtalkSquareFilled />
+        </Variant>
+        <Variant name="DislikeFilled">
+          <DislikeFilled />
+        </Variant>
+        <Variant name="DollarCircleFilled">
+          <DollarCircleFilled />
+        </Variant>
+        <Variant name="DribbbleCircleFilled">
+          <DribbbleCircleFilled />
+        </Variant>
+        <Variant name="DropboxCircleFilled">
+          <DropboxCircleFilled />
+        </Variant>
+        <Variant name="DropboxSquareFilled">
+          <DropboxSquareFilled />
+        </Variant>
+        <Variant name="EnvironmentFilled">
+          <EnvironmentFilled />
+        </Variant>
+        <Variant name="EuroCircleFilled">
+          <EuroCircleFilled />
+        </Variant>
+        <Variant name="ExperimentFilled">
+          <ExperimentFilled />
+        </Variant>
+        <Variant name="EyeFilled">
+          <EyeFilled />
+        </Variant>
+        <Variant name="EyeInvisibleFilled">
+          <EyeInvisibleFilled />
+        </Variant>
+        <Variant name="FileAddFilled">
+          <FileAddFilled />
+        </Variant>
+        <Variant name="FileExcelFilled">
+          <FileExcelFilled />
+        </Variant>
+        <Variant name="FileExclamationFilled">
+          <FileExclamationFilled />
+        </Variant>
+        <Variant name="FileFilled">
+          <FileFilled />
+        </Variant>
+        <Variant name="FileImageFilled">
+          <FileImageFilled />
+        </Variant>
+        <Variant name="FileMarkdownFilled">
+          <FileMarkdownFilled />
+        </Variant>
+        <Variant name="FilePdfFilled">
+          <FilePdfFilled />
+        </Variant>
+        <Variant name="FilePptFilled">
+          <FilePptFilled />
+        </Variant>
+        <Variant name="FileTextFilled">
+          <FileTextFilled />
+        </Variant>
+        <Variant name="FileUnknownFilled">
+          <FileUnknownFilled />
+        </Variant>
+        <Variant name="FileWordFilled">
+          <FileWordFilled />
+        </Variant>
+        <Variant name="FileZipFilled">
+          <FileZipFilled />
+        </Variant>
+        <Variant name="FilterFilled">
+          <FilterFilled />
+        </Variant>
+        <Variant name="FireFilled">
+          <FireFilled />
+        </Variant>
+        <Variant name="FlagFilled">
+          <FlagFilled />
+        </Variant>
+        <Variant name="FolderAddFilled">
+          <FolderAddFilled />
+        </Variant>
+        <Variant name="FolderFilled">
+          <FolderFilled />
+        </Variant>
+        <Variant name="FolderOpenFilled">
+          <FolderOpenFilled />
+        </Variant>
+        <Variant name="FormatPainterFilled">
+          <FormatPainterFilled />
+        </Variant>
+        <Variant name="FrownFilled">
+          <FrownFilled />
+        </Variant>
+        <Variant name="FunnelPlotFilled">
+          <FunnelPlotFilled />
+        </Variant>
+        <Variant name="GiftFilled">
+          <GiftFilled />
+        </Variant>
+        <Variant name="GoldFilled">
+          <GoldFilled />
+        </Variant>
+        <Variant name="GoldenFilled">
+          <GoldenFilled />
+        </Variant>
+        <Variant name="GoogleCircleFilled">
+          <GoogleCircleFilled />
+        </Variant>
+        <Variant name="GooglePlusCircleFilled">
+          <GooglePlusCircleFilled />
+        </Variant>
+        <Variant name="GooglePlusSquareFilled">
+          <GooglePlusSquareFilled />
+        </Variant>
+        <Variant name="GoogleSquareFilled">
+          <GoogleSquareFilled />
+        </Variant>
+        <Variant name="HddFilled">
+          <HddFilled />
+        </Variant>
+        <Variant name="HeartFilled">
+          <HeartFilled />
+        </Variant>
+        <Variant name="HomeFilled">
+          <HomeFilled />
+        </Variant>
+        <Variant name="HourglassFilled">
+          <HourglassFilled />
+        </Variant>
+        <Variant name="IdcardFilled">
+          <IdcardFilled />
+        </Variant>
+        <Variant name="IeCircleFilled">
+          <IeCircleFilled />
+        </Variant>
+        <Variant name="IeSquareFilled">
+          <IeSquareFilled />
+        </Variant>
+        <Variant name="InsuranceFilled">
+          <InsuranceFilled />
+        </Variant>
+        <Variant name="InteractionFilled">
+          <InteractionFilled />
+        </Variant>
+        <Variant name="LayoutFilled">
+          <LayoutFilled />
+        </Variant>
+        <Variant name="LikeFilled">
+          <LikeFilled />
+        </Variant>
+        <Variant name="LockFilled">
+          <LockFilled />
+        </Variant>
+        <Variant name="MacCommandFilled">
+          <MacCommandFilled />
+        </Variant>
+        <Variant name="MailFilled">
+          <MailFilled />
+        </Variant>
+        <Variant name="MedicineBoxFilled">
+          <MedicineBoxFilled />
+        </Variant>
+        <Variant name="MediumCircleFilled">
+          <MediumCircleFilled />
+        </Variant>
+        <Variant name="MediumSquareFilled">
+          <MediumSquareFilled />
+        </Variant>
+        <Variant name="MehFilled">
+          <MehFilled />
+        </Variant>
+        <Variant name="MessageFilled">
+          <MessageFilled />
+        </Variant>
+        <Variant name="MobileFilled">
+          <MobileFilled />
+        </Variant>
+        <Variant name="MoneyCollectFilled">
+          <MoneyCollectFilled />
+        </Variant>
+        <Variant name="NotificationFilled">
+          <NotificationFilled />
+        </Variant>
+        <Variant name="PayCircleFilled">
+          <PayCircleFilled />
+        </Variant>
+        <Variant name="PhoneFilled">
+          <PhoneFilled />
+        </Variant>
+        <Variant name="PictureFilled">
+          <PictureFilled />
+        </Variant>
+        <Variant name="PlaySquareFilled">
+          <PlaySquareFilled />
+        </Variant>
+        <Variant name="PoundCircleFilled">
+          <PoundCircleFilled />
+        </Variant>
+        <Variant name="PrinterFilled">
+          <PrinterFilled />
+        </Variant>
+        <Variant name="ProfileFilled">
+          <ProfileFilled />
+        </Variant>
+        <Variant name="ProjectFilled">
+          <ProjectFilled />
+        </Variant>
+        <Variant name="PropertySafetyFilled">
+          <PropertySafetyFilled />
+        </Variant>
+        <Variant name="PushpinFilled">
+          <PushpinFilled />
+        </Variant>
+        <Variant name="QqCircleFilled">
+          <QqCircleFilled />
+        </Variant>
+        <Variant name="QqSquareFilled">
+          <QqSquareFilled />
+        </Variant>
+        <Variant name="ReadFilled">
+          <ReadFilled />
+        </Variant>
+        <Variant name="ReconciliationFilled">
+          <ReconciliationFilled />
+        </Variant>
+        <Variant name="RedEnvelopeFilled">
+          <RedEnvelopeFilled />
+        </Variant>
+        <Variant name="RedditCircleFilled">
+          <RedditCircleFilled />
+        </Variant>
+        <Variant name="RedditSquareFilled">
+          <RedditSquareFilled />
+        </Variant>
+        <Variant name="RestFilled">
+          <RestFilled />
+        </Variant>
+        <Variant name="RobotFilled">
+          <RobotFilled />
+        </Variant>
+        <Variant name="RocketFilled">
+          <RocketFilled />
+        </Variant>
+        <Variant name="SafetyCertificateFilled">
+          <SafetyCertificateFilled />
+        </Variant>
+        <Variant name="SaveFilled">
+          <SaveFilled />
+        </Variant>
+        <Variant name="ScheduleFilled">
+          <ScheduleFilled />
+        </Variant>
+        <Variant name="SecurityScanFilled">
+          <SecurityScanFilled />
+        </Variant>
+        <Variant name="SettingFilled">
+          <SettingFilled />
+        </Variant>
+        <Variant name="ShopFilled">
+          <ShopFilled />
+        </Variant>
+        <Variant name="ShoppingFilled">
+          <ShoppingFilled />
+        </Variant>
+        <Variant name="SignalFilled">
+          <SignalFilled />
+        </Variant>
+        <Variant name="SketchCircleFilled">
+          <SketchCircleFilled />
+        </Variant>
+        <Variant name="SketchSquareFilled">
+          <SketchSquareFilled />
+        </Variant>
+        <Variant name="SkinFilled">
+          <SkinFilled />
+        </Variant>
+        <Variant name="SlackCircleFilled">
+          <SlackCircleFilled />
+        </Variant>
+        <Variant name="SmileFilled">
+          <SmileFilled />
+        </Variant>
+        <Variant name="SoundFilled">
+          <SoundFilled />
+        </Variant>
+        <Variant name="StarFilled">
+          <StarFilled />
+        </Variant>
+        <Variant name="SwitcherFilled">
+          <SwitcherFilled />
+        </Variant>
+        <Variant name="TabletFilled">
+          <TabletFilled />
+        </Variant>
+        <Variant name="TagFilled">
+          <TagFilled />
+        </Variant>
+        <Variant name="TagsFilled">
+          <TagsFilled />
+        </Variant>
+        <Variant name="TaobaoSquareFilled">
+          <TaobaoSquareFilled />
+        </Variant>
+        <Variant name="ThunderboltFilled">
+          <ThunderboltFilled />
+        </Variant>
+        <Variant name="ToolFilled">
+          <ToolFilled />
+        </Variant>
+        <Variant name="TrademarkCircleFilled">
+          <TrademarkCircleFilled />
+        </Variant>
+        <Variant name="TrophyFilled">
+          <TrophyFilled />
+        </Variant>
+        <Variant name="TwitterCircleFilled">
+          <TwitterCircleFilled />
+        </Variant>
+        <Variant name="TwitterSquareFilled">
+          <TwitterSquareFilled />
+        </Variant>
+        <Variant name="UnlockFilled">
+          <UnlockFilled />
+        </Variant>
+        <Variant name="UsbFilled">
+          <UsbFilled />
+        </Variant>
+        <Variant name="VideoCameraFilled">
+          <VideoCameraFilled />
+        </Variant>
+        <Variant name="WalletFilled">
+          <WalletFilled />
+        </Variant>
+        <Variant name="ZhihuCircleFilled">
+          <ZhihuCircleFilled />
+        </Variant>
+        <Variant name="ZhihuSquareFilled">
+          <ZhihuSquareFilled />
+        </Variant>
+      </Component>
+      <Component name="Two Tone">
+        <Variant name="UpCircleTwoTone">
+          <UpCircleTwoTone />
+        </Variant>
+        <Variant name="DownCircleTwoTone">
+          <DownCircleTwoTone />
+        </Variant>
+        <Variant name="LeftCircleTwoTone">
+          <LeftCircleTwoTone />
+        </Variant>
+        <Variant name="RightCircleTwoTone">
+          <RightCircleTwoTone />
+        </Variant>
+        <Variant name="PlayCircleTwoTone">
+          <PlayCircleTwoTone />
+        </Variant>
+        <Variant name="UpSquareTwoTone">
+          <UpSquareTwoTone />
+        </Variant>
+        <Variant name="DownSquareTwoTone">
+          <DownSquareTwoTone />
+        </Variant>
+        <Variant name="LeftSquareTwoTone">
+          <LeftSquareTwoTone />
+        </Variant>
+        <Variant name="LeftSquareTwoTone">
+          <RightSquareTwoTone />
+        </Variant>
+        <Variant name="QuestionCircleTwoTone">
+          <QuestionCircleTwoTone />
+        </Variant>
+        <Variant name="PlusCircleTwoTone">
+          <PlusCircleTwoTone />
+        </Variant>
+        <Variant name="PauseCircleTwoTone">
+          <PauseCircleTwoTone />
+        </Variant>
+        <Variant name="MinusCircleTwoTone">
+          <MinusCircleTwoTone />
+        </Variant>
+        <Variant name="PlusSquareTwoTone">
+          <PlusSquareTwoTone />
+        </Variant>
+        <Variant name="MinusSquareTwoTone">
+          <MinusSquareTwoTone />
+        </Variant>
+        <Variant name="InfoCircleTwoTone">
+          <InfoCircleTwoTone />
+        </Variant>
+        <Variant name="ExclamationCircleTwoTone">
+          <ExclamationCircleTwoTone />
+        </Variant>
+        <Variant name="CloseCircleTwoTone">
+          <CloseCircleTwoTone />
+        </Variant>
+        <Variant name="CloseSquareTwoTone">
+          <CloseSquareTwoTone />
+        </Variant>
+        <Variant name="CheckCircleTwoTone">
+          <CheckCircleTwoTone />
+        </Variant>
+        <Variant name="CheckSquareTwoTone">
+          <CheckSquareTwoTone />
+        </Variant>
+        <Variant name="ClockCircleTwoTone">
+          <ClockCircleTwoTone />
+        </Variant>
+        <Variant name="WarningTwoTone">
+          <WarningTwoTone />
+        </Variant>
+        <Variant name="StopTwoTone">
+          <StopTwoTone />
+        </Variant>
+        <Variant name="EditTwoTone">
+          <EditTwoTone />
+        </Variant>
+        <Variant name="CopyTwoTone">
+          <CopyTwoTone />
+        </Variant>
+        <Variant name="DeleteTwoTone">
+          <DeleteTwoTone />
+        </Variant>
+        <Variant name="SnippetsTwoTone">
+          <SnippetsTwoTone />
+        </Variant>
+        <Variant name="DiffTwoTone">
+          <DiffTwoTone />
+        </Variant>
+        <Variant name="HighlightTwoTone">
+          <HighlightTwoTone />
+        </Variant>
+        <Variant name="PieChartTwoTone">
+          <PieChartTwoTone />
+        </Variant>
+        <Variant name="BoxPlotTwoTone">
+          <BoxPlotTwoTone />
+        </Variant>
+        <Variant name="FundTwoTone">
+          <FundTwoTone />
+        </Variant>
+        <Variant name="SlidersTwoTone">
+          <SlidersTwoTone />
+        </Variant>
+        <Variant name="Html5TwoTone">
+          <Html5TwoTone />
+        </Variant>
+        <Variant name="AccountBookTwoTone">
+          <AccountBookTwoTone />
+        </Variant>
+        <Variant name="AlertTwoTone">
+          <AlertTwoTone />
+        </Variant>
+        <Variant name="ApiTwoTone">
+          <ApiTwoTone />
+        </Variant>
+        <Variant name="AppstoreTwoTone">
+          <AppstoreTwoTone />
+        </Variant>
+        <Variant name="AudioTwoTone">
+          <AudioTwoTone />
+        </Variant>
+        <Variant name="BankTwoTone">
+          <BankTwoTone />
+        </Variant>
+        <Variant name="BellTwoTone">
+          <BellTwoTone />
+        </Variant>
+        <Variant name="BookTwoTone">
+          <BookTwoTone />
+        </Variant>
+        <Variant name="BugTwoTone">
+          <BugTwoTone />
+        </Variant>
+        <Variant name="BuildTwoTone">
+          <BuildTwoTone />
+        </Variant>
+        <Variant name="BulbTwoTone">
+          <BulbTwoTone />
+        </Variant>
+        <Variant name="CalculatorTwoTone">
+          <CalculatorTwoTone />
+        </Variant>
+        <Variant name="CalendarTwoTone">
+          <CalendarTwoTone />
+        </Variant>
+        <Variant name="CameraTwoTone">
+          <CameraTwoTone />
+        </Variant>
+        <Variant name="CarTwoTone">
+          <CarTwoTone />
+        </Variant>
+        <Variant name="CarryOutTwoTone">
+          <CarryOutTwoTone />
+        </Variant>
+        <Variant name="CiCircleTwoTone">
+          <CiCircleTwoTone />
+        </Variant>
+        <Variant name="CiTwoTone">
+          <CiTwoTone />
+        </Variant>
+        <Variant name="CloudTwoTone">
+          <CloudTwoTone />
+        </Variant>
+        <Variant name="CreditCardTwoTone">
+          <CreditCardTwoTone />
+        </Variant>
+        <Variant name="CrownTwoTone">
+          <CrownTwoTone />
+        </Variant>
+        <Variant name="CustomerServiceTwoTone">
+          <CustomerServiceTwoTone />
+        </Variant>
+        <Variant name="DashboardTwoTone">
+          <DashboardTwoTone />
+        </Variant>
+        <Variant name="DatabaseTwoTone">
+          <DatabaseTwoTone />
+        </Variant>
+        <Variant name="CodeTwoTone">
+          <CodeTwoTone />
+        </Variant>
+        <Variant name="CompassTwoTone">
+          <CompassTwoTone />
+        </Variant>
+        <Variant name="ContactsTwoTone">
+          <ContactsTwoTone />
+        </Variant>
+        <Variant name="ContainerTwoTone">
+          <ContainerTwoTone />
+        </Variant>
+        <Variant name="ControlTwoTone">
+          <ControlTwoTone />
+        </Variant>
+        <Variant name="DislikeTwoTone">
+          <DislikeTwoTone />
+        </Variant>
+        <Variant name="DollarCircleTwoTone">
+          <DollarCircleTwoTone />
+        </Variant>
+        <Variant name="DollarTwoTone">
+          <DollarTwoTone />
+        </Variant>
+        <Variant name="EnvironmentTwoTone">
+          <EnvironmentTwoTone />
+        </Variant>
+        <Variant name="EuroCircleTwoTone">
+          <EuroCircleTwoTone />
+        </Variant>
+        <Variant name="EuroTwoTone">
+          <EuroTwoTone />
+        </Variant>
+        <Variant name="ExperimentTwoTone">
+          <ExperimentTwoTone />
+        </Variant>
+        <Variant name="EyeTwoTone">
+          <EyeTwoTone />
+        </Variant>
+        <Variant name="EyeInvisibleTwoTone">
+          <EyeInvisibleTwoTone />
+        </Variant>
+        <Variant name="FileAddTwoTone">
+          <FileAddTwoTone />
+        </Variant>
+        <Variant name="FileExcelTwoTone">
+          <FileExcelTwoTone />
+        </Variant>
+        <Variant name="FileExcelTwoTone">
+          <FileExclamationTwoTone />
+        </Variant>
+        <Variant name="FileTwoTone">
+          <FileTwoTone />
+        </Variant>
+        <Variant name="FileImageTwoTone">
+          <FileImageTwoTone />
+        </Variant>
+        <Variant name="FileMarkdownTwoTone">
+          <FileMarkdownTwoTone />
+        </Variant>
+        <Variant name="FilePdfTwoTone">
+          <FilePdfTwoTone />
+        </Variant>
+        <Variant name="FilePptTwoTone">
+          <FilePptTwoTone />
+        </Variant>
+        <Variant name="FileTextTwoTone">
+          <FileTextTwoTone />
+        </Variant>
+        <Variant name="FileUnknownTwoTone">
+          <FileUnknownTwoTone />
+        </Variant>
+        <Variant name="FileWordTwoTone">
+          <FileWordTwoTone />
+        </Variant>
+        <Variant name="FileZipTwoTone">
+          <FileZipTwoTone />
+        </Variant>
+        <Variant name="FilterTwoTone">
+          <FilterTwoTone />
+        </Variant>
+        <Variant name="FireTwoTone">
+          <FireTwoTone />
+        </Variant>
+        <Variant name="FlagTwoTone">
+          <FlagTwoTone />
+        </Variant>
+        <Variant name="FolderAddTwoTone">
+          <FolderAddTwoTone />
+        </Variant>
+        <Variant name="FolderTwoTone">
+          <FolderTwoTone />
+        </Variant>
+        <Variant name="FolderOpenTwoTone">
+          <FolderOpenTwoTone />
+        </Variant>
+        <Variant name="FrownTwoTone">
+          <FrownTwoTone />
+        </Variant>
+        <Variant name="FunnelPlotTwoTone">
+          <FunnelPlotTwoTone />
+        </Variant>
+        <Variant name="GiftTwoTone">
+          <GiftTwoTone />
+        </Variant>
+        <Variant name="GoldTwoTone">
+          <GoldTwoTone />
+        </Variant>
+        <Variant name="HddTwoTone">
+          <HddTwoTone />
+        </Variant>
+        <Variant name="HeartTwoTone">
+          <HeartTwoTone />
+        </Variant>
+        <Variant name="HomeTwoTone">
+          <HomeTwoTone />
+        </Variant>
+        <Variant name="HourglassTwoTone">
+          <HourglassTwoTone />
+        </Variant>
+        <Variant name="IdcardTwoTone">
+          <IdcardTwoTone />
+        </Variant>
+        <Variant name="InsuranceTwoTone">
+          <InsuranceTwoTone />
+        </Variant>
+        <Variant name="InteractionTwoTone">
+          <InteractionTwoTone />
+        </Variant>
+        <Variant name="LayoutTwoTone">
+          <LayoutTwoTone />
+        </Variant>
+        <Variant name="LikeTwoTone">
+          <LikeTwoTone />
+        </Variant>
+        <Variant name="LockTwoTone">
+          <LockTwoTone />
+        </Variant>
+        <Variant name="MailTwoTone">
+          <MailTwoTone />
+        </Variant>
+        <Variant name="MedicineBoxTwoTone">
+          <MedicineBoxTwoTone />
+        </Variant>
+        <Variant name="MehTwoTone">
+          <MehTwoTone />
+        </Variant>
+        <Variant name="MessageTwoTone">
+          <MessageTwoTone />
+        </Variant>
+        <Variant name="MobileTwoTone">
+          <MobileTwoTone />
+        </Variant>
+        <Variant name="MoneyCollectTwoTone">
+          <MoneyCollectTwoTone />
+        </Variant>
+        <Variant name="NotificationTwoTone">
+          <NotificationTwoTone />
+        </Variant>
+        <Variant name="PhoneTwoTone">
+          <PhoneTwoTone />
+        </Variant>
+        <Variant name="PictureTwoTone">
+          <PictureTwoTone />
+        </Variant>
+        <Variant name="PlaySquareTwoTone">
+          <PlaySquareTwoTone />
+        </Variant>
+        <Variant name="PoundCircleTwoTone">
+          <PoundCircleTwoTone />
+        </Variant>
+        <Variant name="PrinterTwoTone">
+          <PrinterTwoTone />
+        </Variant>
+        <Variant name="ProfileTwoTone">
+          <ProfileTwoTone />
+        </Variant>
+        <Variant name="ProjectTwoTone">
+          <ProjectTwoTone />
+        </Variant>
+        <Variant name="PropertySafetyTwoTone">
+          <PropertySafetyTwoTone />
+        </Variant>
+        <Variant name="PushpinTwoTone">
+          <PushpinTwoTone />
+        </Variant>
+        <Variant name="ReconciliationTwoTone">
+          <ReconciliationTwoTone />
+        </Variant>
+        <Variant name="RedEnvelopeTwoTone">
+          <RedEnvelopeTwoTone />
+        </Variant>
+        <Variant name="RestTwoTone">
+          <RestTwoTone />
+        </Variant>
+        <Variant name="RocketTwoTone">
+          <RocketTwoTone />
+        </Variant>
+        <Variant name="SafetyCertificateTwoTone">
+          <SafetyCertificateTwoTone />
+        </Variant>
+        <Variant name="SaveTwoTone">
+          <SaveTwoTone />
+        </Variant>
+        <Variant name="ScheduleTwoTone">
+          <ScheduleTwoTone />
+        </Variant>
+        <Variant name="SecurityScanTwoTone">
+          <SecurityScanTwoTone />
+        </Variant>
+        <Variant name="SettingTwoTone">
+          <SettingTwoTone />
+        </Variant>
+        <Variant name="ShopTwoTone">
+          <ShopTwoTone />
+        </Variant>
+        <Variant name="ShoppingTwoTone">
+          <ShoppingTwoTone />
+        </Variant>
+        <Variant name="SkinTwoTone">
+          <SkinTwoTone />
+        </Variant>
+        <Variant name="SmileTwoTone">
+          <SmileTwoTone />
+        </Variant>
+        <Variant name="SoundTwoTone">
+          <SoundTwoTone />
+        </Variant>
+        <Variant name="StarTwoTone">
+          <StarTwoTone />
+        </Variant>
+        <Variant name="SwitcherTwoTone">
+          <SwitcherTwoTone />
+        </Variant>
+        <Variant name="TabletTwoTone">
+          <TabletTwoTone />
+        </Variant>
+        <Variant name="TagTwoTone">
+          <TagTwoTone />
+        </Variant>
+        <Variant name="TagsTwoTone">
+          <TagsTwoTone />
+        </Variant>
+        <Variant name="ThunderboltTwoTone">
+          <ThunderboltTwoTone />
+        </Variant>
+        <Variant name="ToolTwoTone">
+          <ToolTwoTone />
+        </Variant>
+        <Variant name="TrademarkCircleTwoTone">
+          <TrademarkCircleTwoTone />
+        </Variant>
+        <Variant name="TrophyTwoTone">
+          <TrophyTwoTone />
+        </Variant>
+        <Variant name="UnlockTwoTone">
+          <UnlockTwoTone />
+        </Variant>
+        <Variant name="UsbTwoTone">
+          <UsbTwoTone />
+        </Variant>
+        <Variant name="VideoCameraTwoTone">
+          <VideoCameraTwoTone />
+        </Variant>
+        <Variant name="WalletTwoTone">
+          <WalletTwoTone />
         </Variant>
       </Component>
     </Category>
