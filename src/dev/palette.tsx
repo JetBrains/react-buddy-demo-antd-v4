@@ -846,10 +846,11 @@ import {
 import Checkbox from "antd/es/checkbox/Checkbox";
 import Radio, {Group} from "antd/es/radio";
 import SubMenu from "antd/es/menu/SubMenu";
-import {Alert, ConfigProvider} from "antd";
+import {Alert, ConfigProvider, Upload} from "antd";
 import Meta from "antd/es/card/Meta";
 import TextArea from "antd/es/input/TextArea";
 import Paragraph from "antd/es/typography/Paragraph";
+import {useForm} from "antd/es/form/Form";
 
 const palette = () => (
   <Palette>
@@ -1084,6 +1085,92 @@ const palette = () => (
               <Footer>Footer</Footer>
             </Layout>
           </Layout>
+        </Variant>
+      </Component>
+    </Category>
+    <Category name="Form">
+      <Component name="Form">
+        <Variant proto={FormProto}/>
+      </Component>
+      <Component name="Form.Item">
+        <Variant name="Input">
+          <Form.Item label="Input" name="input">
+            <Input />
+          </Form.Item>
+        </Variant>
+        <Variant name="Checkbox">
+          <Form.Item label="Checkbox" name="checkbox" valuePropName="checked">
+            <Checkbox>checkbox</Checkbox>
+          </Form.Item>
+        </Variant>
+        <Variant name="Radio">
+          <Form.Item label="Radio" name="radio">
+            <Radio.Group>
+              <Radio value="first"> First </Radio>
+              <Radio value="second"> Second </Radio>
+            </Radio.Group>
+          </Form.Item>
+        </Variant>
+        <Variant name="Select">
+          <Form.Item label="Select">
+            <Select>
+              <Select.Option value="opt1">Option 1</Select.Option>
+              <Select.Option value="opt2">Option 2</Select.Option>
+            </Select>
+          </Form.Item>
+        </Variant>
+        <Variant name="Cascader">
+          <Form.Item label="Cascader" name="cascader">
+            <Cascader
+              options={[
+                {
+                  value: 'item',
+                  label: 'Item',
+                  children: [
+                    {
+                      value: 'subitem',
+                      label: 'Sub Item',
+                    },
+                  ],
+                },
+              ]}
+            />
+          </Form.Item>
+        </Variant>
+        <Variant name="DatePicker">
+          <Form.Item label="DatePicker" name="datepicker">
+            <DatePicker/>
+          </Form.Item>
+        </Variant>
+        <Variant name="InputNumber">
+          <Form.Item label="InputNumber" name="inputnumber">
+            <InputNumber />
+          </Form.Item>
+        </Variant>
+        <Variant name="TextArea">
+          <Form.Item label="TextArea" name="textarea">
+            <TextArea rows={4} />
+          </Form.Item>
+        </Variant>
+        <Variant name="Switch">
+          <Form.Item label="Switch" name="switch" valuePropName="checked">
+            <Switch />
+          </Form.Item>
+        </Variant>
+        <Variant name="Upload">
+          <Form.Item label="Upload" name="upload" valuePropName="fileList">
+            <Upload action="/upload.do" listType="picture-card">
+              <div>
+                <PlusOutlined />
+                <div style={{ marginTop: 8 }}>Upload</div>
+              </div>
+            </Upload>
+          </Form.Item>
+        </Variant>
+        <Variant name="Button">
+          <Form.Item label="Button">
+            <Button>Button</Button>
+          </Form.Item>
         </Variant>
       </Component>
     </Category>
@@ -7551,5 +7638,45 @@ const palette = () => (
     </Category>
   </Palette>
 );
+
+export function FormProto() {
+
+  const [form] = useForm();
+
+  const onFormFinish = (values: any) => {
+    // todo handle form finish
+  };
+
+  const onFormFinishFailed = (errorInfo: any) => {
+    // todo handle form finish fail
+  };
+
+  const onFormClearClick = () => {
+    form.resetFields();
+  };
+
+  return (
+    <Form
+      form={form}
+      name="basic"
+      labelCol={{ span: 8 }}
+      wrapperCol={{ span: 16 }}
+      layout="horizontal"
+      initialValues={{ remember: true }}
+      onFinish={onFormFinish}
+      onFinishFailed={onFormFinishFailed}
+    >
+      <Form.Item wrapperCol={{ offset: 8, span: 16 }}>
+        <Button type="primary" htmlType="submit">
+          Submit
+        </Button>
+        <Button htmlType="button" onClick={onFormClearClick}>
+          Clear
+        </Button>
+      </Form.Item>
+    </Form>
+  )
+
+}
 
 export default palette;
