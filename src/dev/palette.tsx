@@ -855,7 +855,7 @@ import {useForm} from "antd/es/form/Form";
 const palette = () => (
   <Palette>
     <Category name="Button">
-      <Component name="Button">
+      <Component name="Button" docURL="https://ant.design/components/button/">
         <Variant>
           <Button>Default Button</Button>
         </Variant>
@@ -915,7 +915,7 @@ const palette = () => (
             Danger Link
           </Button>
         </Variant>
-        <Variant name="block">
+        <Variant name="block" docURL="https://ant.design/components/button/#components-button-demo-block">
           <Button block>Block Default</Button>
         </Variant>
         <Variant name="block - primary">
@@ -936,7 +936,7 @@ const palette = () => (
       </Component>
     </Category>
     <Category name="Typography">
-      <Component name="Title">
+      <Component name="Title" docURL="https://ant.design/components/typography/#components-typography-demo-title">
         <Variant name="h1">
           <Title>h1. Ant Design</Title>
         </Variant>
@@ -953,7 +953,7 @@ const palette = () => (
           <Title level={5}>h5. Ant Design</Title>
         </Variant>
       </Component>
-      <Component name="Text">
+      <Component name="Text" docURL="https://ant.design/components/typography/#components-typography-demo-text">
         <Variant>
           <Text>Ant Design (default)</Text>
         </Variant>
@@ -994,7 +994,7 @@ const palette = () => (
           <Text italic>Ant Design (italic)</Text>
         </Variant>
       </Component>
-      <Component name="Link">
+      <Component name="Link" docURL="https://ant.design/components/typography/#components-typography-demo-text">
         <Variant>
           <Link href="https://ant.design" target="_blank">
             Ant Design (Link)
@@ -1003,7 +1003,7 @@ const palette = () => (
       </Component>
     </Category>
     <Category name="Layout">
-      <Component name="Grid">
+      <Component name="Grid" docURL="https://ant.design/components/grid/">
         <Variant name="two cols">
           <Row>
             <Col span={12}>col-12</Col>
@@ -1026,7 +1026,7 @@ const palette = () => (
           </Row>
         </Variant>
       </Component>
-      <Component name="Divider">
+      <Component name="Divider" docURL="https://ant.design/components/divider/">
         <Variant>
           <Divider/>
         </Variant>
@@ -1040,7 +1040,7 @@ const palette = () => (
           <Divider type="vertical"/>
         </Variant>
       </Component>
-      <Component name="Space">
+      <Component name="Space" docURL="https://ant.design/components/space/">
         <Variant>
           <Space></Space>
         </Variant>
@@ -1048,7 +1048,7 @@ const palette = () => (
           <Space direction="vertical"></Space>
         </Variant>
       </Component>
-      <Component name="App Layout">
+      <Component name="App Layout" docURL="https://ant.design/components/layout/">
         <Variant>
           <Layout>
             <Header>Header</Header>
@@ -1089,10 +1089,10 @@ const palette = () => (
       </Component>
     </Category>
     <Category name="Form">
-      <Component name="Form">
+      <Component name="Form" docURL="https://ant.design/components/form/">
         <Variant proto={FormProto}/>
       </Component>
-      <Component name="Form.Item">
+      <Component name="Form.Item" docURL="https://ant.design/components/form/#components-form-demo-dynamic-form-item">
         <Variant name="Input">
           <Form.Item label="Input" name="input">
             <Input />
@@ -1175,22 +1175,22 @@ const palette = () => (
       </Component>
     </Category>
     <Category name="Data Entry">
-      <Component name="AutoComplete">
+      <Component name="AutoComplete" docURL="https://ant.design/components/auto-complete/">
         <Variant>
           <AutoComplete/>
         </Variant>
       </Component>
-      <Component name="Cascader">
+      <Component name="Cascader" docURL="https://ant.design/components/cascader/">
         <Variant>
           <Cascader/>
         </Variant>
       </Component>
-      <Component name="Checkbox">
+      <Component name="Checkbox" docURL="https://ant.design/components/checkbox/">
         <Variant>
           <Checkbox>Checkbox</Checkbox>
         </Variant>
       </Component>
-      <Component name="DatePicker">
+      <Component name="DatePicker" docURL="https://ant.design/components/date-picker/">
         <Variant>
           <DatePicker/>
         </Variant>
@@ -1215,7 +1215,7 @@ const palette = () => (
         </Variant>
         */}
       </Component>
-      <Component name="Input">
+      <Component name="Input" docURL="https://ant.design/components/input/">
         <Variant>
           <Input/>
         </Variant>
@@ -1232,12 +1232,12 @@ const palette = () => (
           <Input addonAfter=".com" defaultValue="mysite"/>
         </Variant>
       </Component>
-      <Component name="InputNumber">
+      <Component name="InputNumber" docURL="https://ant.design/components/input-number/">
         <Variant>
           <InputNumber min={0} max={10} defaultValue={5}/>
         </Variant>
       </Component>
-      <Component name="Radio">
+      <Component name="Radio" docURL="https://ant.design/components/radio/">
         <Variant>
           <Group>
             <Radio value={1}>A</Radio>
@@ -1247,12 +1247,12 @@ const palette = () => (
           </Group>
         </Variant>
       </Component>
-      <Component name="Rate">
+      <Component name="Rate" docURL="https://ant.design/components/rate/">
         <Variant>
           <Rate/>
         </Variant>
       </Component>
-      <Component name="Select">
+      <Component name="Select" docURL="https://ant.design/components/select/">
         <Variant>
           <Select defaultValue="lucy">
             <Select.Option value="jack">Jack</Select.Option>
@@ -1263,24 +1263,24 @@ const palette = () => (
           </Select>
         </Variant>
       </Component>
-      <Component name="Slider">
+      <Component name="Slider" docURL="https://ant.design/components/slider/">
         <Variant>
           <Slider defaultValue={30}/>
         </Variant>
       </Component>
-      <Component name="Switch">
+      <Component name="Switch" docURL="https://ant.design/components/switch/">
         <Variant>
           <Switch defaultChecked={false}/>
         </Variant>
       </Component>
-      <Component name="TimePicker">
+      <Component name="TimePicker" docURL="https://ant.design/components/time-picker/">
         <Variant>
           <TimePicker/>
         </Variant>
       </Component>
     </Category>
     <Category name="Data Display">
-      <Component name="Avatar">
+      <Component name="Avatar" docURL="https://ant.design/components/avatar/">
         <Variant name="letters">
           <Avatar>User</Avatar>
         </Variant>
@@ -1325,7 +1325,7 @@ const palette = () => (
           </Avatar>
         </Variant>
       </Component>
-      <Component name="Avatar.Group">
+      <Component name="Avatar.Group" docURL="https://ant.design/components/avatar/#components-avatar-demo-group">
         <Variant>
           <Avatar.Group>
             <Avatar icon={<UserOutlined/>}>U1</Avatar>
@@ -1341,7 +1341,7 @@ const palette = () => (
           </Avatar.Group>
         </Variant>
       </Component>
-      <Component name="Badge">
+      <Component name="Badge" docURL="https://ant.design/components/badge/">
         <Variant name="success status">
           <Badge status="success"/>
         </Variant>
@@ -1408,7 +1408,7 @@ const palette = () => (
           </Badge>
         </Variant>
       </Component>
-      <Component name="Badge.Ribbon">
+      <Component name="Badge.Ribbon" docURL="https://ant.design/components/badge/#components-badge-demo-ribbbon">
         <Variant name="on card">
           <Badge.Ribbon text="Hippies">
             <Card title="Pushes open the window" size="small">
@@ -1417,12 +1417,12 @@ const palette = () => (
           </Badge.Ribbon>
         </Variant>
       </Component>
-      <Component name="Calendar">
+      <Component name="Calendar" docURL="https://ant.design/components/calendar/">
         <Variant>
           <Calendar/>
         </Variant>
       </Component>
-      <Component name="Card">
+      <Component name="Card" docURL="https://ant.design/components/card/">
         <Variant name="title and content">
           <Card title="Card title">Card content</Card>
         </Variant>
@@ -1493,7 +1493,7 @@ const palette = () => (
           </Card>
         </Variant>
       </Component>
-      <Component name="Card.Grid">
+      <Component name="Card.Grid" docURL="https://ant.design/components/card/#components-card-demo-grid-card">
         <Variant>
           <Card title="Card title">
             <Card.Grid>Content</Card.Grid>
@@ -1501,7 +1501,7 @@ const palette = () => (
           </Card>
         </Variant>
       </Component>
-      <Component name="Carousel">
+      <Component name="Carousel" docURL="https://ant.design/components/carousel/">
         <Variant>
           <Carousel>
             <div>
@@ -1519,7 +1519,7 @@ const palette = () => (
           </Carousel>
         </Variant>
       </Component>
-      <Component name="Collapse">
+      <Component name="Collapse" docURL="https://ant.design/components/collapse/">
         <Variant>
           <Collapse>
             <Collapse.Panel header="This is panel header 1" key="1">
@@ -1642,7 +1642,7 @@ const palette = () => (
           </Collapse>
         </Variant>
       </Component>
-      <Component name="Comment">
+      <Component name="Comment" docURL="https://ant.design/components/comment/">
         <Variant name="basic">
           <Comment
             actions={[<span key="comment-nested-reply-to">Reply to</span>]}
@@ -1728,7 +1728,7 @@ const palette = () => (
           />
         </Variant>
       </Component>
-      <Component name="Descriptions">
+      <Component name="Descriptions" docURL="https://ant.design/components/descriptions/">
         <Variant>
           <Descriptions title="User Info">
             <Descriptions.Item label="UserName">Jack Smith</Descriptions.Item>
@@ -1753,7 +1753,7 @@ const palette = () => (
           </Descriptions>
         </Variant>
       </Component>
-      <Component name="Empty">
+      <Component name="Empty" docURL="https://ant.design/components/empty/">
         <Variant name="basic">
           <Empty/>
         </Variant>
@@ -1788,7 +1788,7 @@ const palette = () => (
           ></ConfigProvider>
         </Variant>
       </Component>
-      <Component name="Image">
+      <Component name="Image" docURL="https://ant.design/components/image/">
         <Variant name="basic">
           <Image
             width={200}
@@ -1814,7 +1814,7 @@ const palette = () => (
           />
         </Variant>
       </Component>
-      <Component name="Image.PreviewGroup">
+      <Component name="Image.PreviewGroup" docURL="https://ant.design/components/image/#components-image-demo-preview-group-visible">
         <Variant>
           <Image.PreviewGroup>
             <Image
@@ -1828,7 +1828,7 @@ const palette = () => (
           </Image.PreviewGroup>
         </Variant>
       </Component>
-      <Component name="List">
+      <Component name="List" docURL="https://ant.design/components/list/">
         <Variant name="basic">
           <List
             dataSource={["Foo", "Bar"]}
@@ -1917,7 +1917,7 @@ const palette = () => (
           />
         </Variant>
       </Component>
-      <Component name="Popover">
+      <Component name="Popover" docURL="https://ant.design/components/popover/">
         <Variant name="basic">
           <Popover content="Content" title="Title">
             <Button type="primary">Hover me</Button>
@@ -1954,7 +1954,7 @@ const palette = () => (
           </Popover>
         </Variant>
       </Component>
-      <Component name="Statistic">
+      <Component name="Statistic" docURL="https://ant.design/components/statistic/">
         <Variant name="basic">
           <Statistic title="Active Users" value={112893}/>
         </Variant>
@@ -1989,7 +1989,7 @@ const palette = () => (
           </Row>
         </Variant>
       </Component>
-      <Component name="Table">
+      <Component name="Table" docURL="https://ant.design/components/table/">
         <Variant name="basic">
           <Table
             columns={[
@@ -2214,7 +2214,7 @@ const palette = () => (
             ]}
           />
         </Variant>
-        <Variant name="tree data">
+        <Variant name="tree data" docURL="https://ant.design/components/table/#components-table-demo-tree-data">
           <Table
             columns={[
               {
@@ -2301,7 +2301,7 @@ const palette = () => (
             ]}
           />
         </Variant>
-        <Variant name="fixed header">
+        <Variant name="fixed header" docURL="https://ant.design/components/table/#components-table-demo-fixed-header">
           <Table
             dataSource={Array.from(Array(30).keys()).map((value, index) => ({
               key: index,
@@ -2348,7 +2348,7 @@ const palette = () => (
             ]}
           />
         </Variant>
-        <Variant name="summary">
+        <Variant name="summary" docURL="https://ant.design/components/table/#components-table-demo-summary">
           <Table
             columns={[
               {title: "Name", dataIndex: "name"},
@@ -2429,7 +2429,7 @@ const palette = () => (
           />
         </Variant>
       </Component>
-      <Component name="Tabs">
+      <Component name="Tabs" docURL="https://ant.design/components/tabs/">
         <Variant name="basic">
           <Tabs>
             <Tabs.TabPane tab="Tab 1" key="1">
@@ -2561,7 +2561,7 @@ const palette = () => (
           </Tabs>
         </Variant>
       </Component>
-      <Component name="Tag">
+      <Component name="Tag" docURL="https://ant.design/components/tag/">
         <Variant name="basic">
           <Tag>Tag</Tag>
         </Variant>
@@ -2580,7 +2580,7 @@ const palette = () => (
           </Tag>
         </Variant>
       </Component>
-      <Component name="Timeline">
+      <Component name="Timeline" docURL="https://ant.design/components/timeline/">
         <Variant name="basic">
           <Timeline>
             <Timeline.Item>Step 1</Timeline.Item>
@@ -2624,7 +2624,7 @@ const palette = () => (
           </Timeline>
         </Variant>
       </Component>
-      <Component name="Tooltip">
+      <Component name="Tooltip" docURL="https://ant.design/components/tooltip/">
         <Variant name="basic">
           <Tooltip title="Prompt text">
             <span>Tooltip will show on mouse enter.</span>
@@ -2651,7 +2651,7 @@ const palette = () => (
           </Tooltip>
         </Variant>
       </Component>
-      <Component name="Tree">
+      <Component name="Tree" docURL="https://ant.design/components/tree/">
         <Variant name="basic">
           <Tree
             checkable
@@ -2783,7 +2783,7 @@ const palette = () => (
       </Component>
     </Category>
     <Category name="Navigation">
-      <Component name="Affix">
+      <Component name="Affix" docURL="https://ant.design/components/affix/">
         <Variant name="top">
           <Affix offsetTop={10}>
             <Button type="primary">Affix top</Button>
@@ -2795,7 +2795,7 @@ const palette = () => (
           </Affix>
         </Variant>
       </Component>
-      <Component name="Breadcrumb">
+      <Component name="Breadcrumb" docURL="https://ant.design/components/breadcrumb/">
         <Variant name="basic">
           <Breadcrumb>
             <Breadcrumb.Item>Home</Breadcrumb.Item>
@@ -2875,7 +2875,7 @@ const palette = () => (
           </Breadcrumb>
         </Variant>
       </Component>
-      <Component name="Dropdown">
+      <Component name="Dropdown" docURL="https://ant.design/components/dropdown/">
         <Variant name="basic">
           <Dropdown
             overlay={
@@ -2981,7 +2981,7 @@ const palette = () => (
           </Dropdown>
         </Variant>
       </Component>
-      <Component name="Menu">
+      <Component name="Menu" docURL="https://ant.design/components/menu/">
         <Variant name="vertical">
           <Menu
             defaultSelectedKeys={["1"]}
@@ -3063,7 +3063,7 @@ const palette = () => (
           </Menu>
         </Variant>
       </Component>
-      <Component name="PageHeader">
+      <Component name="PageHeader" docURL="https://ant.design/components/page-header/">
         <Variant name="basic">
           <PageHeader
             onBack={() => null}
@@ -3108,7 +3108,7 @@ const palette = () => (
           />
         </Variant>
       </Component>
-      <Component name="Pagination">
+      <Component name="Pagination" docURL="https://ant.design/components/pagination/">
         <Variant name="basic">
           <Pagination defaultCurrent={1} total={50}/>
         </Variant>
@@ -3146,7 +3146,7 @@ const palette = () => (
           />
         </Variant>
       </Component>
-      <Component name="Steps">
+      <Component name="Steps" docURL="https://ant.design/components/steps/">
         <Variant name="basic">
           <Steps current={1}>
             <Steps.Step title="Finished" description="This is a description."/>
@@ -3268,7 +3268,7 @@ const palette = () => (
       </Component>
     </Category>
     <Category name="Feedback">
-      <Component name="Alert">
+      <Component name="Alert" docURL="https://ant.design/components/alert/">
         <Variant name="error">
           <Alert message="Error Text" type="error"/>
         </Variant>
@@ -3326,7 +3326,7 @@ const palette = () => (
           <Alert message="Info Text" type="info" closeText="Close Now"/>
         </Variant>
       </Component>
-      <Component name="Drawer">
+      <Component name="Drawer" docURL="https://ant.design/components/drawer/">
         <Variant name="placement right">
           <Drawer title="Basic Drawer" visible>
             <p>Some contents...</p>
@@ -3363,7 +3363,7 @@ const palette = () => (
           </Drawer>
         </Variant>
       </Component>
-      <Component name="Modal">
+      <Component name="Modal" docURL="https://ant.design/components/modal/">
         <Variant name="basic">
           <Modal title="Basic Modal" visible={true}>
             <p>Some contents...</p>
@@ -3436,7 +3436,7 @@ const palette = () => (
           </Modal>
         </Variant>
       </Component>
-      <Component name="Popconfirm">
+      <Component name="Popconfirm" docURL="https://ant.design/components/popconfirm/">
         <Variant name="basic">
           <Popconfirm title="Are you sure to delete this entity?">
             <a href="#">Delete</a>
@@ -3464,7 +3464,7 @@ const palette = () => (
           </Popconfirm>
         </Variant>
       </Component>
-      <Component name="Progress">
+      <Component name="Progress" docURL="https://ant.design/components/progress/">
         <Variant name="standard">
           <Progress percent={30}/>
         </Variant>
@@ -3545,7 +3545,7 @@ const palette = () => (
           />
         </Variant>
       </Component>
-      <Component name="Result">
+      <Component name="Result" docURL="https://ant.design/components/result/">
         <Variant name="success">
           <Result
             status="success"
@@ -3646,7 +3646,7 @@ const palette = () => (
           />
         </Variant>
       </Component>
-      <Component name="Skeleton">
+      <Component name="Skeleton" docURL="https://ant.design/components/skeleton/">
         <Variant name="basic">
           <Skeleton/>
         </Variant>
@@ -3702,7 +3702,7 @@ const palette = () => (
           <Skeleton.Image/>
         </Variant>
       </Component>
-      <Component name="Spin">
+      <Component name="Spin" docURL="https://ant.design/components/spin/">
         <Variant name="basic">
           <Spin/>
         </Variant>
