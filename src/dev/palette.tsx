@@ -4445,7 +4445,6 @@ const palette = () => (
         <Variant name="outlined">
           <TaobaoOutlined/>
         </Variant>
-        <BellOutlined/>
       </Component>
       <Component name="SkypeOutlined">
         <Variant name="outlined">
@@ -4781,7 +4780,6 @@ const palette = () => (
         <Variant name="outlined">
           <ClusterOutlined/>
         </Variant>
-        <ControlOutlined/>
       </Component>
       <Component name="CodeOutlined">
         <Variant name="outlined">
